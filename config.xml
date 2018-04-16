@@ -1,0 +1,75 @@
+<?xml version='1.6' encoding='utf-8'?>
+<widget id="com.heppenstall.molarity" version="1.6" xmlns="http://www.w3.org/ns/widgets" xmlns:gap="http://phonegap.com/ns/1.1">
+    <name>molecular operations</name>
+    <description>
+        tools for molecular biology.
+    </description>
+    <author email="heppenstall.co@gmail.com" href="http://heppenstall.atwebpages.com">
+        Benjamin Heppenstall
+    </author>
+    <platform name="android">
+    	<preference name="SplashMaintainAspectRatio" value="true"/>
+    	<preference name="SplashShowOnlyFirstTime" value="true"/>
+    	<icon density="ldpi" src="res/icon/android/Icon-ldpi.png"/>
+    	<icon density="mdpi" src="res/icon/android/Icon-mdpi.png"/>
+    	<icon density="hdpi" src="res/icon/android/Icon-hdpi.png"/>
+    	<icon density="xhdpi" src="res/icon/android/Icon-xhdpi.png"/>
+    	<icon density="xxhdpi" src="res/icon/android/Icon-xxhdpi.png"/>
+    	<icon density="xxxhdpi" src="res/icon/android/Icon-xxxhdpi.png"/>
+    	<splash density="port-ldpi" src="res/screen/android/splash-port-ldpi.png"/>
+    	<splash density="port-mdpi" src="res/screen/android/splash-port-mdpi.png"/>
+    	<splash density="port-hdpi" src="res/screen/android/splash-port-hdpi.png"/>
+    	<splash density="port-xhdpi" src="res/screen/android/splash-port-xhdpi.png"/>
+    	<splash density="port-xxhdpi" src="res/screen/android/splash-port-xxhdpi.png"/>
+    	<splash density="port-xxxhdpi" src="res/screen/android/splash-port-xxxhdpi.png"/>
+    </platform>
+    <platform name="windows">
+    	<preference name="SplashMaintainAspectRatio" value="true"/>
+    	<preference name="SplashShowOnlyFirstTime" value="true"/>
+    	<icon density="ldpi" src="res/icon//ldpi.png"/>
+    	<icon density="mdpi" src="res/icon/windows/Icon-mdpi.png"/>
+    	<icon density="hdpi" src="res/icon/windows/Icon-hdpi.png"/>
+    	<icon density="xhdpi" src="res/icon/windows/Icon-xhdpi.png"/>
+    	<icon density="xxhdpi" src="res/icon/windows/Icon-xxhdpi.png"/>
+    	<icon density="xxxhdpi" src="res/icon/windows/Icon-xxxhdpi.png"/>
+    	<splash density="port-ldpi" src="res/screen/windows/splash-port-ldpi.png"/>
+    	<splash density="port-mdpi" src="res/screen/windows/splash-port-mdpi.png"/>
+    	<splash density="port-hdpi" src="res/screen/windows/splash-port-hdpi.png"/>
+    	<splash density="port-xhdpi" src="res/screen/windows/splash-port-xhdpi.png"/>
+    	<splash density="port-xxhdpi" src="res/screen/windows/splash-port-xxhdpi.png"/>
+    	<splash density="port-xxxhdpi" src="res/screen/windows/splash-port-xxxhdpi.png"/>
+    </platform>
+    <platform name="ios">
+        <preference name="SplashMaintainAspectRatio" value="true"/>
+        <preference name="SplashShowOnlyFirstTime" value="true"/>
+        <icon density="ldpi" src="res/icon/ios/icon.png"/>
+        <icon density="mdpi" src="res/icon/ios/icon@2x.png"/>
+        <icon density="hdpi" src="res/icon/ios/icon-60.png"/>
+        <icon density="xhdpi" src="res/icon/ios/icon-60@2x.png"/>
+        <icon density="xxhdpi" src="res/icon/ios/icon-60@3x.png"/>
+        <icon density="xxxhdpi" src="res/icon/ios/icon-72.png"/>
+        <icon density="xxxhdpi" src="res/icon/ios/icon-72@2x.png"/>
+        <icon density="xxxhdpi" src="res/icon/ios/icon-76.png"/>
+        <icon density="xxxhdpi" src="res/icon/ios/icon-76@2x.png"/>
+        <icon density="xxxhdpi" src="res/icon/ios/icon-83.5@2x.png"/>
+        <icon density="xxxhdpi" src="res/icon/ios/icon-167.png"/>
+        <icon density="xxxhdpi" src="res/icon/ios/icon-1024.png"/>
+        <icon density="xxxhdpi" src="res/icon/ios/icon-small.png"/>
+        <icon density="xxxhdpi" src="res/icon/ios/icon-small@2x.png"/>
+        <icon density="xxxhdpi" src="res/icon/ios/icon-small-40.png"/>
+        <icon density="xxxhdpi" src="res/icon/ios/icon-small-40@2x.png"/>
+        <icon density="xxxhdpi" src="res/icon/ios/icon-small-40@3x.png"/>
+        <icon density="xxxhdpi" src="res/icon/ios/icon-small-50.png"/>
+        <icon density="xxxhdpi" src="res/icon/ios/icon-small-50@2x.png"/>
+        <splash density="port-ldpi" src="res/screen/ios/Default@2x~ipad~anyany.png"/>
+        <splash density="port-ldpi" src="res/screen/ios/Default@2x~ipad~company.png"/>
+        <splash density="port-ldpi" src="res/screen/ios/Default@2x~iphone~company.png"/>
+        <splash density="port-ldpi" src="res/screen/ios/Default@3x~iphone~anyany.png"/>
+        <splash density="port-ldpi" src="res/screen/ios/Default@3x~iphone~company.png"/>
+    </platform>
+
+    <gap:plugin name="com.admob.plugin" version="3.0.0" source="plugins.cordova.io" />
+    
+    <content src="index.html" />
+    <access origin="*" />
+</widget>
