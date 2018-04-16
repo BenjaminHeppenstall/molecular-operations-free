@@ -1,7 +1,7 @@
 document.addEventListener("deviceready", onDeviceReady, false);
 
 function onDeviceReady() {
-	admob.initAdmob("ca-app-pub-6191068143145161/7360233749", /* "ca-app-pub-INTERSTITIALID" */ );            // replace with own id from admob
+	admob.initAdmob("ca-app-pub-6191068143145161/7360233749" /* , "ca-app-pub-INTERSTITIALID" */ );            // replace with own id from admob
 }
 
 
