@@ -1,13 +1,10 @@
-document.addEventListener("deviceready", onDeviceReady, false);
+admobid = {
+      banner: 'ca-app-pub-3940256099942544/6300978111'
+    };
 
-function onDeviceReady() {
-	admob.initAdmob("ca-app-pub-3940256099942544/6300978111" /* , "ca-app-pub-INTERSTITIALID" */ );            // replace with own id from admob (this is test ad)
-}
+AdMob.createBanner({
+  adId: admobid.banner,
+  position: AdMob.AD_POSITION.TOP_CENTER,
+  autoShow: true });
 
-
-// cache interstitial ad
-
-/*document.addEventListener(admob.Event.onInterstitialReceive, this.onInterstitialReceive, false);
-admob.cacheInterstitial();*/
-
-admob.showBanner(admob.BannerSize.BANNER, admob.Position.BOTTOM_APP);
+document.write("works");
