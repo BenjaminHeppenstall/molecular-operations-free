@@ -1,0 +1,3 @@
+function showInterstitialAd() {
+  AdMob.showInterstitial();
+}

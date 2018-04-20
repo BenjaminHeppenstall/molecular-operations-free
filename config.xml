@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='utf-8'?>
-<widget id="com.heppenstall.molarity" version="1.6" xmlns="http://www.w3.org/ns/widgets" xmlns:gap="http://phonegap.com/ns/1.1">
-    <name>molecular operations</name>
+<widget id="com.heppenstall.molarityFree" version="1.0" xmlns="http://www.w3.org/ns/widgets" xmlns:gap="http://phonegap.com/ns/1.1">
+    <name>molecular operations FREE</name>
     <description>
         tools for molecular biology.
     </description>
@@ -70,4 +70,6 @@
     <content src="index.html" />
     <access origin="*" />
     <plugin name="cordova-plugin-admobpro" spec="~2.31.4" />
+    <plugin name="cordova-plugin-inappbrowser" spec="^3.0.0" />
+    <engine name="android" spec="~7.0.0" />
 </widget>

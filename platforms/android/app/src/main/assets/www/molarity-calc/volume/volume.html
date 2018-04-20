@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<script src="js/myscripts.js"></script>
+	<script src="../../jQuery/jquery-3.3.1.min.js"></script>
+</head>
+<link rel="stylesheet" href="styles/mystyles.css" />
+<body background="images/background.png" id="body">
+
+	<div class="header">
+		<button class="backBtn" id="backButton" onclick="location.href='../molarity-calc.html'"><img src="images/back.png"></button>
+		<h1 class="heading">Volume</h1>
+	</div>
+
+    <div class="container">
+
+ 
+	<label class="top">please enter Mass</label><br>
+	<input type="number" id="mass" /> 
+
+	<select class="inputs" id="selectMass" onchange="change()">
+		<option value="0.000000000000001">femtograms</option>
+		<option value="0.000000000001">picograms</option>
+		<option value="0.000000001">nanograms</option>
+		<option value="0.000001" selected="selected">micrograms</option>
+		<option value="0.001">milligrams</option>
+		<option value="1">grams</option>
+		<option value="1000">kilograms</option>
+	</select> <br> <br>
+
+	<label>please enter formula Weight</label><br>
+	<input type="number" id="daltons" /> 
+
+	<select class="inputs" id="selectDaltons" onchange="change()">
+		<option value="1">daltons</option>
+		<option value="1000">kilodaltons</option>
+	</select> <br> <br>
+
+
+	<label>please enter Concentration</label><br>
+	<input type="number" id="concentration" />
+
+	<select class="inputs" id="selectConcentration" onchange="change()">
+		<option value="0.000000000000001">femtomolar</option>
+		<option value="0.000000000001">picomolar</option>
+		<option value="0.000000001">nanomolar</option>
+		<option value="0.000001" selected="selected">micromolar</option>
+		<option value="0.001">millimolar</option>
+		<option value="1">molar</option>
+	</select> <br> <br>
+
+	<div id="answerDiv">
+		<p id="answer" style="display: inline-block;"></p> 
+		<select id="selectVolume" style="display: none;" onchange="change()">
+			<option value="1000000000000000">femtolitre</option>
+		    <option value="1000000000000">picolitre</option>
+		    <option value="1000000000">nanolitre</option>
+		    <option value="1000000" selected="selected">microlitre</option>
+		    <option value="1000">millilitre</option>
+		    <option value="1">litre</option>
+		</select> <br> <br>
+	</div>
+
+	<button id="calcBtn" onclick="calculateVolume()">calculate</button> <br>
+
+	<div id="demo"></div>
+
+    </div>
+
+	<script src="js/myscripts.js"></script>
+</body>
+</html>

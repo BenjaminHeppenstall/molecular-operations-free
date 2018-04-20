@@ -1,0 +1,17 @@
+{
+  "name": "com.heppenstall.molarity",
+  "version": "1.6",
+  "displayName": "molecular operations",
+  "cordova": {
+    "platforms": [
+      "android"
+    ],
+    "plugins": {
+      "cordova-plugin-inappbrowser": {}
+    }
+  },
+  "dependencies": {
+    "cordova-android": "~7.0.0",
+    "cordova-plugin-inappbrowser": "^3.0.0"
+  }
+}

@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<script src="js/myscripts.js"></script>
+	<script src="../../jQuery/jquery-3.3.1.min.js"></script>
+</head>
+<link rel="stylesheet" href="styles/mystyles.css" />
+<body background="images/background.png">
+	<div class="header">
+		<button class="backBtn" id="backButton" onclick="location.href='../molarity-calc.html'"><img src="images/back.png"></button>
+		<h1 class="heading">Dilute a<br>stock solution</h1>
+	</div>
+
+	<div class="container">
+    
+	<label class="top">please enter stock Concentration</label><br>
+	<input type="number" id="stockConcentration" />
+
+	<select class="inputs" id="selectStockConcentration" onchange="change()">
+		<option value="0.000000000000001">femtomolar</option>
+		<option value="0.000000000001">picomolar</option>
+		<option value="0.000000001">nanomolar</option>
+		<option value="0.000001" selected="selected">micromolar</option>
+		<option value="0.001">millimolar</option>
+		<option value="1">molar</option>
+	</select>  <br> <br>
+    
+	<label>please enter the desired Concentration</label><br>
+	<input type="number" id="desiredConcentration" />
+
+	<select class="inputs" id="selectDesiredConcentration" onchange="change()">
+		<option value="0.000000000000001">femtomolar</option>
+		<option value="0.000000000001">picomolar</option>
+		<option value="0.000000001">nanomolar</option>
+		<option value="0.000001" selected="selected">micromolar</option> 
+		<option value="0.001">millimolar</option>
+		<option value="1">molar</option>
+	</select>  <br> <br>
+
+    
+	<label>please enter the desired Volume</label><br>
+	<input type="number" id="desiredVolume" /> 
+
+	<select class="inputs" id="selectDesiredVolume" onchange="change()">
+		<option value="0.000000000000001">femtolitre</option>
+		<option value="0.000000000001">picolitre</option>
+		<option value="0.000000001">nanolitre</option>
+		<option value="0.000001" selected="selected">microlitre</option>
+		<option value="0.001">millilitre</option>
+		<option value="1">litre</option>
+	</select> <br> <br>
+
+	<div id="answerDiv">
+		<p id="answer" style="display: inline-block;"></p>
+		<select id="selectStockVolume" style="display: none;" onchange="change()">
+			<option value="1000000000000000">femtolitre</option>
+			<option value="1000000000000">picolitre</option>
+			<option value="1000000000">nanolitre</option>
+			<option value="1000000" selected="selected">microlitre</option>
+			<option value="1000">millilitre</option>
+			<option value="1">litre</option>
+		</select> <br> <br> 
+	</div>
+
+	<button id="calcBtn" onclick="calculateDilute()">calculate</button> <br>
+
+	<div id="demo"></div>
+
+	</div>
+
+	<script src="js/myscripts.js"></script>
+</body>
+</html>

@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<script src="js/myscripts.js"></script>
+	<script src="../../../jQuery/jquery-3.3.1.min.js"></script>
+</head>
+<link rel="stylesheet" href="styles/mystyles.css" />
+<body background="images/background.png">
+
+	<div class="header">
+
+		<button class="backBtn" id="backButton" onclick="location.href='../../DNAconversions.html'"><img src="images/back.png"></button>
+		<h1 class="heading">ssDNA:<br>µg/ml to<br>pmol/µl</h1>
+
+	</div>
+
+	<div class="container">
+    
+		<label>Oligo length (bases)</label><br>
+		<input type="number" id="DNAlength" /> <br><br>
+
+    
+		<label>Concentration (µg/ml)</label><br>
+		<input type="number" id="DNAamount" /> <br><br>
+
+		<p id="answer" style="display: inline-block;"></p><br>
+
+		<button id="calcBtn" onclick="calculateDNAug()">calculate</button> <br>
+
+		<div id="demo"></div>
+
+
+	</div>
+
+	<script src="js/myscripts.js"></script>
+</body>
+</html>

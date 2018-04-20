@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<script src="js/myscripts.js"></script>
+	<script src="../../jQuery/jquery-3.3.1.min.js"></script>
+</head>
+<link rel="stylesheet" href="styles/mystyles.css" />
+<body background="images/background.png">
+
+	<div class="header">
+
+		<button style="display: inline-block;"class="backBtn" id="backButton" onclick="location.href='../moleculeConversions.html'"><img src="images/back.png"></button>
+		<h1 style="display: inline-block;" class="heading">Moles to<br> Molecules</h1>
+
+	</div>
+
+	<div class="container">
+    
+ 
+		<label>please enter number of Moles</label><br>
+		<input type="number" id="mol" /> <p style="display: inline-block;" id="e">E</p>  <input type="number" value="-0" id="notation" /><br><br>
+
+
+		<p id="answer" style="display: inline-block;"></p><br>
+
+
+		<button id="calcBtn" onclick="calculateMolecules()">calculate</button> <br>
+
+		<div id="demo"></div>
+
+
+	</div>
+
+	<script src="js/myscripts.js"></script>
+</body>
+</html>

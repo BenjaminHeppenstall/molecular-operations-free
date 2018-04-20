@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<script src="js/myscripts.js"></script>
+	<script src="../../jQuery/jquery-3.3.1.min.js"></script>
+</head>
+<link rel="stylesheet" href="styles/mystyles.css" />
+<body background="images/background.png">
+
+	<div class="header">
+
+		<button class="backBtn" id="backButton" onclick="location.href='../DNAconversions.html'"><img src="images/back.png"></button>
+		<h1 class="heading">Ligations:<br>Molar ratio of<br>Insert:Vector</h1>
+
+	</div>
+
+	<div class="container">
+    
+		<label>Insert length (kb)</label><br>
+		<input type="number" id="length" /> <br><br>
+
+    
+		<label>Vector amount (ng)</label><br>
+		<input type="number" id="vAmount" /> <br><br>
+
+
+		<label>Vector length (kb)</label><br>
+		<input type="number" id="vLength" /> <br><br>
+
+		<div id="answerDiv">
+			<p id="answer" style="display: inline-block;"></p>
+			<select id="selectRatio" style="display: none;" onchange="change()">
+			    <option value="1">1:1 ratio</option>
+			    <option value="0.5">1:2 ratio</option>
+			    <option value="0.3333333">1:3 ratio</option>
+			    <option value="2">2:1 ratio</option>
+			    <option value="3">3:1 ratio</option>
+			</select> <br> <br> 
+		</div>
+
+
+		<button id="calcBtn" onclick="calculateLigation()">calculate</button> <br>
+
+		<div id="demo"></div>
+
+
+	</div>
+
+	<script src="js/myscripts.js"></script>
+</body>
+</html>

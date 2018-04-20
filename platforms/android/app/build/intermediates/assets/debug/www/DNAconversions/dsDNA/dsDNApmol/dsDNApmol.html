@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<script src="js/myscripts.js"></script>
+	<script src="../../../jQuery/jquery-3.3.1.min.js"></script>
+</head>
+<link rel="stylesheet" href="styles/mystyles.css" />
+<body background="images/background.png">
+
+	<div class="header">
+
+		<button class="backBtn" id="backButton" onclick="location.href='../../DNAconversions.html'"><img src="images/back.png"></button>
+		<h1 class="heading">dsDNA:<br>µg to pmol</h1>
+
+	</div>
+
+	<div class="container">
+    
+		<label>DNA length (bp)</label><br>
+		<input type="number" type="submit" id="DNAlength" tabindex="1" /> <br><br>
+
+    
+		<label>DNA amount (µg)</label><br>
+		<input type="number" id="DNAamount" tabindex="2" /> <br><br>
+
+		<p id="answer" style="display: inline-block;"></p><br>
+
+		<button id="calcBtn" onclick="calculateDNAug()" tabindex="3">calculate</button> <br>
+
+		<div id="demo"></div>
+
+
+	</div>
+
+	<script src="js/myscripts.js"></script>
+</body>
+</html>
