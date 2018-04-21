@@ -261,6 +261,7 @@ dependencies {
     // SUB-PROJECT DEPENDENCIES START
     implementation(project(path: ":CordovaLib"))
     compile "com.google.android.gms:play-services-ads:+"
+    compile 'com.google.android.gms:play-services-ads:15.0.0'
     // SUB-PROJECT DEPENDENCIES END
 }
 
