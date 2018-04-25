@@ -21,7 +21,7 @@ function onLoad() {
 
 // select the right Ad Id according to platform
 var admobid = { // for Android
-  banner: 'ca-app-pub-6191068143145161/1350805691',
+  banner: 'ca-app-pub-6191068143145161/1430227559',
   //interstitial: 'ca-app-pub-3940256099942544/1033173712', 
   //rewardvideo: 'ca-app-pub-3940256099942544/5224354917',
 };
