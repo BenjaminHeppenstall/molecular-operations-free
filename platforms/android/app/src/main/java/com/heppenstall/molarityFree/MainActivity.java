@@ -21,7 +21,6 @@ package com.heppenstall.molarityFree;
 
 import android.os.Bundle;
 import org.apache.cordova.*;
-import com.google.android.gms.ads.MobileAds;
 
 public class MainActivity extends CordovaActivity
 {
@@ -29,7 +28,6 @@ public class MainActivity extends CordovaActivity
     public void onCreate(Bundle savedInstanceState)
     {
         super.onCreate(savedInstanceState);
-        MobileAds.initialize(this, "ca-app-pub-6191068143145161~9112534198");
 
         // enable Cordova apps to be started in the background
         Bundle extras = getIntent().getExtras();
