@@ -16,12 +16,12 @@
         "source": "C:\\Users\\Carla\\Desktop\\usb\\molecular operations\\molecular-operations-free\\platforms\\android\\app\\src\\main\\res\\mipmap-xxhdpi\\icon.png"
     },
     {
-        "merged": "C:\\Users\\Carla\\Desktop\\usb\\molecular operations\\molecular-operations-free\\platforms\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4_notification_bg_normal_pressed.9.png.flat",
-        "source": "C:\\Users\\Carla\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-26.1.0.aar\\3b0cf2419509e5d0d5f22ff9ba4f89ca\\res\\drawable-hdpi-v4\\notification_bg_normal_pressed.9.png"
-    },
-    {
         "merged": "C:\\Users\\Carla\\Desktop\\usb\\molecular operations\\molecular-operations-free\\platforms\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4_notification_bg_normal_pressed.9.png.flat",
         "source": "C:\\Users\\Carla\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-26.1.0.aar\\3b0cf2419509e5d0d5f22ff9ba4f89ca\\res\\drawable-xhdpi-v4\\notification_bg_normal_pressed.9.png"
+    },
+    {
+        "merged": "C:\\Users\\Carla\\Desktop\\usb\\molecular operations\\molecular-operations-free\\platforms\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4_notification_bg_normal_pressed.9.png.flat",
+        "source": "C:\\Users\\Carla\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-26.1.0.aar\\3b0cf2419509e5d0d5f22ff9ba4f89ca\\res\\drawable-hdpi-v4\\notification_bg_normal_pressed.9.png"
     },
     {
         "merged": "C:\\Users\\Carla\\Desktop\\usb\\molecular operations\\molecular-operations-free\\platforms\\android\\app\\build\\intermediates\\res\\merged\\debug\\layout_notification_media_cancel_action.xml.flat",
@@ -52,16 +52,16 @@
         "source": "C:\\Users\\Carla\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-26.1.0.aar\\3b0cf2419509e5d0d5f22ff9ba4f89ca\\res\\drawable-hdpi-v4\\notification_bg_low_normal.9.png"
     },
     {
-        "merged": "C:\\Users\\Carla\\Desktop\\usb\\molecular operations\\molecular-operations-free\\platforms\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4_notify_panel_notification_icon_bg.png.flat",
-        "source": "C:\\Users\\Carla\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-26.1.0.aar\\3b0cf2419509e5d0d5f22ff9ba4f89ca\\res\\drawable-mdpi-v4\\notify_panel_notification_icon_bg.png"
+        "merged": "C:\\Users\\Carla\\Desktop\\usb\\molecular operations\\molecular-operations-free\\platforms\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_ic_action_previous_item.png.flat",
+        "source": "C:\\Users\\Carla\\Desktop\\usb\\molecular operations\\molecular-operations-free\\platforms\\android\\app\\src\\main\\res\\drawable-hdpi\\ic_action_previous_item.png"
     },
     {
         "merged": "C:\\Users\\Carla\\Desktop\\usb\\molecular operations\\molecular-operations-free\\platforms\\android\\app\\build\\intermediates\\res\\merged\\debug\\layout_notification_media_action.xml.flat",
         "source": "C:\\Users\\Carla\\.gradle\\caches\\transforms-1\\files-1.1\\support-media-compat-26.1.0.aar\\9d229d4b920c7f09f2efef6f0163b70f\\res\\layout\\notification_media_action.xml"
     },
     {
-        "merged": "C:\\Users\\Carla\\Desktop\\usb\\molecular operations\\molecular-operations-free\\platforms\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_ic_action_previous_item.png.flat",
-        "source": "C:\\Users\\Carla\\Desktop\\usb\\molecular operations\\molecular-operations-free\\platforms\\android\\app\\src\\main\\res\\drawable-hdpi\\ic_action_previous_item.png"
+        "merged": "C:\\Users\\Carla\\Desktop\\usb\\molecular operations\\molecular-operations-free\\platforms\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4_notify_panel_notification_icon_bg.png.flat",
+        "source": "C:\\Users\\Carla\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-26.1.0.aar\\3b0cf2419509e5d0d5f22ff9ba4f89ca\\res\\drawable-mdpi-v4\\notify_panel_notification_icon_bg.png"
     },
     {
         "merged": "C:\\Users\\Carla\\Desktop\\usb\\molecular operations\\molecular-operations-free\\platforms\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4_notification_bg_normal.9.png.flat",
