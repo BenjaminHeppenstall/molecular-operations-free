@@ -50,7 +50,7 @@ function initApp() {
   AdMob.showInterstitial();
 }*/
 
-/*document.addEventListener('onAdFailLoad', function(e){
+document.addEventListener('onAdFailLoad', function(e){
   var alertTxt = "for offline usage please donwload ";
   var alertBold = "Molecular operations (0.59€)"
   var alertTxt2 = " in the google play store";
@@ -58,7 +58,7 @@ function initApp() {
   navigator.app.exitApp();
 });
 
-document.write("works ok");
+/*document.write("works ok");
 
 var backBtn = document.getElementById("backBtn");
 

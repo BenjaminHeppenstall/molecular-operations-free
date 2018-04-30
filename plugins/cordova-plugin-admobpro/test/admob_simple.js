@@ -11,7 +11,7 @@ if( /(android)/i.test(navigator.userAgent) ) {
   admobid = { // for iOS
     banner: 'ca-app-pub-3940256099942544/4480807092',
     interstitial: 'ca-app-pub-3940256099942544/4411468910',
-    rewardvideo: 'ca-app-pub-3940256099942544/1712485313', 
+    rewardvideo: 'ca-app-pub-3940256099942544/1712485313',
   };
 } else {
   admobid = { // for Windows Phone
