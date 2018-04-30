@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.heppenstall.molarity"
+    package="com.heppenstall.molarityFree"
     android:hardwareAccelerated="true"
-    android:versionCode="10600"
-    android:versionName="1.6" >
+    android:versionCode="10300"
+    android:versionName="1.3" >
 
     <uses-sdk
         android:minSdkVersion="16"
@@ -27,7 +27,7 @@
         android:label="@string/app_name"
         android:supportsRtl="true" >
         <activity
-            android:name="com.heppenstall.molarity.MainActivity"
+            android:name="com.heppenstall.molarityFree.MainActivity"
             android:configChanges="orientation|keyboardHidden|keyboard|screenSize|locale"
             android:label="@string/activity_name"
             android:launchMode="singleTop"

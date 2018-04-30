@@ -23,7 +23,16 @@
 		<input type="number" id="molecules" /> <p style="display: inline-block;" id="e">E+</p> <input type="number" id="notation" /><br><br>
 
 
-		<p id="answer" style="display: inline-block;"></p><br>
+		<p id="answer" style="display: inline-block;"></p>
+
+		<select class="inputs" id="size" onchange="change()">
+			<option value="0.000000000000001">femtomoles</option>
+			<option value="0.000000000001" selected="selected">picomoles</option>
+			<option value="0.000000001">nanomoles</option>
+			<option value="0.000001" >micromoles</option> 
+			<option value="0.001">millimoles</option>
+			<option value="1">moles</option>
+		</select>  <br>
 
 		<button id="calcBtn" onclick="calculateMoles()">calculate</button> <br>
 

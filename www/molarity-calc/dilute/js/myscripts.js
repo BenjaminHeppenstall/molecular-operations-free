@@ -20,6 +20,7 @@ var input1 = document.getElementById("desiredVolume");
 input1.addEventListener("keyup", function(event) {
     event.preventDefault();
     if (event.keyCode === 13) {
+        document.getElementById("desiredVolume").blur();
         document.getElementById("calcBtn").click();
     }
 });

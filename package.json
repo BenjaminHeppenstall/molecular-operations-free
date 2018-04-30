@@ -7,11 +7,13 @@
       "android"
     ],
     "plugins": {
-      "cordova-plugin-inappbrowser": {}
+      "cordova-plugin-inappbrowser": {},
+      "cordova-plugin-admobpro": {}
     }
   },
   "dependencies": {
-    "cordova-android": "~7.0.0",
-    "cordova-plugin-inappbrowser": "^3.0.0"
+    "cordova-android": "^7.0.0",
+    "cordova-plugin-inappbrowser": "^3.0.0",
+    "cordova-plugin-admobpro": "~2.31.4"
   }
 }

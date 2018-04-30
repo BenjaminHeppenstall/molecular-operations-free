@@ -18,6 +18,7 @@ var input1 = document.getElementById("vLength");
 input1.addEventListener("keyup", function(event) {
     event.preventDefault();
     if (event.keyCode === 13) {
+        document.getElementById("vLength").blur();
         document.getElementById("calcBtn").click();
     }
 });

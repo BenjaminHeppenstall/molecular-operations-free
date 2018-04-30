@@ -20,6 +20,7 @@ var input1 = document.getElementById("concentration");
 input1.addEventListener("keyup", function(event) {
     event.preventDefault();
     if (event.keyCode === 13) {
+        document.getElementById("concentration").blur();
         document.getElementById("calcBtn").click();
     }
 });

@@ -11,6 +11,7 @@ var input1 = document.getElementById("DNAamount");
 input1.addEventListener("keyup", function(event) {
     event.preventDefault();
     if (event.keyCode === 13) {
+        document.getElementById("DNAamount").blur();
         document.getElementById("calcBtn").click();
     }
 });

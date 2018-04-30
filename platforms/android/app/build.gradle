@@ -30,7 +30,6 @@ buildscript {
 
     dependencies {
         classpath 'com.android.tools.build:gradle:3.0.0'
-        compile 'com.google.android.gms:play-services-ads:15.0.0'
     }
 }
 
@@ -92,7 +91,7 @@ ext {
 }
 
 // PLUGIN GRADLE EXTENSIONS START
-apply from: "../cordova-plugin-extension/molarity-rjfun-libs.gradle"
+apply from: "../cordova-plugin-extension/molarityFree-rjfun-libs.gradle"
 // PLUGIN GRADLE EXTENSIONS END
 
 def hasBuildExtras = file('build-extras.gradle').exists()
@@ -262,7 +261,6 @@ dependencies {
     // SUB-PROJECT DEPENDENCIES START
     implementation(project(path: ":CordovaLib"))
     compile "com.google.android.gms:play-services-ads:+"
-    compile 'com.google.android.gms:play-services-ads:15.0.0'
     // SUB-PROJECT DEPENDENCIES END
 }
 

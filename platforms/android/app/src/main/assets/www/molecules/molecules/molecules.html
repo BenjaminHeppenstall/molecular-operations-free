@@ -18,7 +18,16 @@
     
  
 		<label>please enter number of Moles</label><br>
-		<input type="number" id="mol" /> <p style="display: inline-block;" id="e">E</p>  <input type="number" value="-0" id="notation" /><br><br>
+		<input type="number" id="mol" />
+
+		<select class="inputs" id="size" onchange="change()">
+			<option value="0.000000000000001">femtomoles</option>
+			<option value="0.000000000001" selected="selected">picomoles</option>
+			<option value="0.000000001">nanomoles</option>
+			<option value="0.000001">micromoles</option> 
+			<option value="0.001">millimoles</option>
+			<option value="1">moles</option>
+		</select>  <br>
 
 
 		<p id="answer" style="display: inline-block;"></p><br>

@@ -43,13 +43,13 @@
   },
   "installed_plugins": {
     "cordova-plugin-extension": {
-      "PACKAGE_NAME": "com.heppenstall.molarity"
+      "PACKAGE_NAME": "com.heppenstall.molarityFree"
     },
     "cordova-plugin-admobpro": {
-      "PACKAGE_NAME": "com.heppenstall.molarity"
+      "PACKAGE_NAME": "com.heppenstall.molarityFree"
     },
     "cordova-plugin-inappbrowser": {
-      "PACKAGE_NAME": "com.heppenstall.molarity"
+      "PACKAGE_NAME": "com.heppenstall.molarityFree"
     }
   },
   "dependent_plugins": {},

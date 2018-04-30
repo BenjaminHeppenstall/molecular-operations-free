@@ -21,9 +21,9 @@ function onLoad() {
 
 // select the right Ad Id according to platform
 var admobid = { // for Android
-  banner: 'ca-app-pub-3940256099942544/6300978111',
-  interstitial: 'ca-app-pub-3940256099942544/1033173712', 
-  rewardvideo: 'ca-app-pub-3940256099942544/5224354917',
+  banner: 'ca-app-pub-6191068143145161/1430227559',
+  //interstitial: 'ca-app-pub-3940256099942544/1033173712', 
+  //rewardvideo: 'ca-app-pub-3940256099942544/5224354917',
 };
 
 function initApp() {
@@ -33,7 +33,6 @@ function initApp() {
   AdMob.createBanner( {
     adId: admobid.banner,
     position: AdMob.AD_POSITION.BOTTOM_CENTER,
-    isTesting: true, // TODO: remove this line when release
     overlap: false,
     offsetTopBar: false,
     bgColor: 'black'

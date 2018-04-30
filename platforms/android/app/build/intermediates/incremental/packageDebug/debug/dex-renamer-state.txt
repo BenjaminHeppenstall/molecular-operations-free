@@ -1,4 +1,4 @@
-#Fri Apr 20 21:37:45 CEST 2018
-base.0=C\:\\Users\\Carla\\Desktop\\usb\\molecular-operations-free\\platforms\\android\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\0
+#Mon Apr 30 12:08:24 CEST 2018
+base.0=C\:\\Users\\Carla\\Desktop\\usb\\molecular operations\\molecular-operations-free\\platforms\\android\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\0
 renamed.0=classes.dex
-file.0=C\:\\Users\\Carla\\Desktop\\usb\\molecular-operations-free\\platforms\\android\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\0\\classes.dex
+file.0=C\:\\Users\\Carla\\Desktop\\usb\\molecular operations\\molecular-operations-free\\platforms\\android\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\0\\classes.dex
