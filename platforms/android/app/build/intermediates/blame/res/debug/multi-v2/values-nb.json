@@ -4,6 +4,23 @@
             "outputFile": "C:\\Users\\Carla\\Desktop\\usb\\molecular operations\\molecular-operations-free\\platforms\\android\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-nb\\values-nb.xml",
             "map": [
                 {
+                    "source": "C:\\Users\\Carla\\.gradle\\caches\\transforms-1\\files-1.1\\play-services-ads-15.0.1.aar\\7a50d3a51bbd1d41ee8a2b7d26a22be1\\res\\values-nb\\values.xml",
+                    "from": {
+                        "startLines": "4,5,6,7,8,9,10",
+                        "startColumns": "0,0,0,0,0,0,0",
+                        "startOffsets": "197,265,372,435,498,581,688",
+                        "endColumns": "67,106,62,62,82,106,68",
+                        "endOffsets": "264,371,434,497,580,687,756"
+                    },
+                    "to": {
+                        "startLines": "3,4,5,6,7,8,9",
+                        "startColumns": "4,4,4,4,4,4,4",
+                        "startOffsets": "294,366,477,544,611,698,809",
+                        "endColumns": "71,110,66,66,86,110,72",
+                        "endOffsets": "361,472,539,606,693,804,877"
+                    }
+                },
+                {
                     "source": "C:\\Users\\Carla\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-26.1.0.aar\\3b0cf2419509e5d0d5f22ff9ba4f89ca\\res\\values-nb\\values-nb.xml",
                     "from": {
                         "startLines": "2",
@@ -21,7 +38,7 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\Carla\\.gradle\\caches\\transforms-1\\files-1.1\\play-services-basement-15.0.0.aar\\d26889692e11a84bc4004002bed1206a\\res\\values-nb\\values.xml",
+                    "source": "C:\\Users\\Carla\\.gradle\\caches\\transforms-1\\files-1.1\\play-services-basement-15.0.1.aar\\eb1cf09f5e4b9b9cd09bd43e511d59dc\\res\\values-nb\\values.xml",
                     "from": {
                         "startLines": "4",
                         "startColumns": "0",
@@ -35,23 +52,6 @@
                         "startOffsets": "105",
                         "endColumns": "188",
                         "endOffsets": "289"
-                    }
-                },
-                {
-                    "source": "C:\\Users\\Carla\\.gradle\\caches\\transforms-1\\files-1.1\\play-services-ads-15.0.0.aar\\7d41b47f62ca95450d7616c84ebb99f4\\res\\values-nb\\values.xml",
-                    "from": {
-                        "startLines": "4,5,6,7,8,9,10",
-                        "startColumns": "0,0,0,0,0,0,0",
-                        "startOffsets": "197,265,372,435,498,581,688",
-                        "endColumns": "67,106,62,62,82,106,68",
-                        "endOffsets": "264,371,434,497,580,687,756"
-                    },
-                    "to": {
-                        "startLines": "3,4,5,6,7,8,9",
-                        "startColumns": "4,4,4,4,4,4,4",
-                        "startOffsets": "294,366,477,544,611,698,809",
-                        "endColumns": "71,110,66,66,86,110,72",
-                        "endOffsets": "361,472,539,606,693,804,877"
                     }
                 }
             ]

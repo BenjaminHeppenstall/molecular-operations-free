@@ -4,14 +4,14 @@ ADDED from C:\Users\Carla\Desktop\usb\molecular operations\molecular-operations-
 INJECTED from C:\Users\Carla\Desktop\usb\molecular operations\molecular-operations-free\platforms\android\app\src\main\AndroidManifest.xml:2:1-16:12
 INJECTED from C:\Users\Carla\Desktop\usb\molecular operations\molecular-operations-free\platforms\android\app\src\main\AndroidManifest.xml:2:1-16:12
 INJECTED from C:\Users\Carla\Desktop\usb\molecular operations\molecular-operations-free\platforms\android\app\src\main\AndroidManifest.xml:2:1-16:12
-MERGED from [com.google.android.gms:play-services-ads:15.0.0] C:\Users\Carla\.gradle\caches\transforms-1\files-1.1\play-services-ads-15.0.0.aar\7d41b47f62ca95450d7616c84ebb99f4\AndroidManifest.xml:17:1-25:12
+MERGED from [com.google.android.gms:play-services-ads:15.0.1] C:\Users\Carla\.gradle\caches\transforms-1\files-1.1\play-services-ads-15.0.1.aar\7a50d3a51bbd1d41ee8a2b7d26a22be1\AndroidManifest.xml:17:1-25:12
 MERGED from [:CordovaLib] C:\Users\Carla\Desktop\usb\molecular operations\molecular-operations-free\platforms\android\CordovaLib\build\intermediates\manifests\full\debug\AndroidManifest.xml:20:1-27:12
 MERGED from [com.android.support:customtabs:26.1.0] C:\Users\Carla\.gradle\caches\transforms-1\files-1.1\customtabs-26.1.0.aar\cbb158ed039437e23f4e89dbf05a7077\AndroidManifest.xml:17:1-28:12
-MERGED from [com.google.android.gms:play-services-ads-lite:15.0.0] C:\Users\Carla\.gradle\caches\transforms-1\files-1.1\play-services-ads-lite-15.0.0.aar\ab72c71ddd9590dcd4377f92bfc4fe26\AndroidManifest.xml:17:1-36:12
-MERGED from [com.google.android.gms:play-services-gass:15.0.0] C:\Users\Carla\.gradle\caches\transforms-1\files-1.1\play-services-gass-15.0.0.aar\effbb01378760ca20c1e210382ef0978\AndroidManifest.xml:2:1-9:12
-MERGED from [com.google.android.gms:play-services-ads-base:15.0.0] C:\Users\Carla\.gradle\caches\transforms-1\files-1.1\play-services-ads-base-15.0.0.aar\c5817e2a9b8161aa4dd9792fd52c346f\AndroidManifest.xml:17:1-24:12
-MERGED from [com.google.android.gms:play-services-ads-identifier:15.0.0] C:\Users\Carla\.gradle\caches\transforms-1\files-1.1\play-services-ads-identifier-15.0.0.aar\35567c5c2b5df15a19142a194ee2785f\AndroidManifest.xml:17:1-24:12
-MERGED from [com.google.android.gms:play-services-basement:15.0.0] C:\Users\Carla\.gradle\caches\transforms-1\files-1.1\play-services-basement-15.0.0.aar\d26889692e11a84bc4004002bed1206a\AndroidManifest.xml:17:1-28:12
+MERGED from [com.google.android.gms:play-services-ads-lite:15.0.1] C:\Users\Carla\.gradle\caches\transforms-1\files-1.1\play-services-ads-lite-15.0.1.aar\143ff777ddf3f8745d12d722a0093572\AndroidManifest.xml:17:1-36:12
+MERGED from [com.google.android.gms:play-services-gass:15.0.1] C:\Users\Carla\.gradle\caches\transforms-1\files-1.1\play-services-gass-15.0.1.aar\edc17adde62b6a51933086513160d660\AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.android.gms:play-services-ads-base:15.0.1] C:\Users\Carla\.gradle\caches\transforms-1\files-1.1\play-services-ads-base-15.0.1.aar\f5898c2bf0e1f71c11b3b7917c69e96c\AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.android.gms:play-services-ads-identifier:15.0.1] C:\Users\Carla\.gradle\caches\transforms-1\files-1.1\play-services-ads-identifier-15.0.1.aar\bb8e814acc1ca82a75ea6e5bf6436e20\AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.android.gms:play-services-basement:15.0.1] C:\Users\Carla\.gradle\caches\transforms-1\files-1.1\play-services-basement-15.0.1.aar\eb1cf09f5e4b9b9cd09bd43e511d59dc\AndroidManifest.xml:17:1-28:12
 MERGED from [com.android.support:support-v4:26.1.0] C:\Users\Carla\.gradle\caches\transforms-1\files-1.1\support-v4-26.1.0.aar\aa08b336c8e73ff250ff4b2dab77161d\AndroidManifest.xml:17:1-31:12
 MERGED from [com.android.support:support-media-compat:26.1.0] C:\Users\Carla\.gradle\caches\transforms-1\files-1.1\support-media-compat-26.1.0.aar\9d229d4b920c7f09f2efef6f0163b70f\AndroidManifest.xml:17:1-31:12
 MERGED from [com.android.support:support-fragment:26.1.0] C:\Users\Carla\.gradle\caches\transforms-1\files-1.1\support-fragment-26.1.0.aar\3566e2760eea0cb50fe05ee7f645b3ef\AndroidManifest.xml:17:1-31:12
@@ -54,24 +54,24 @@ ADDED from C:\Users\Carla\Desktop\usb\molecular operations\molecular-operations-
 		ADDED from C:\Users\Carla\Desktop\usb\molecular operations\molecular-operations-free\platforms\android\app\src\main\AndroidManifest.xml:3:23-48
 uses-permission#android.permission.INTERNET
 ADDED from C:\Users\Carla\Desktop\usb\molecular operations\molecular-operations-free\platforms\android\app\src\main\AndroidManifest.xml:4:5-67
-MERGED from [com.google.android.gms:play-services-ads-lite:15.0.0] C:\Users\Carla\.gradle\caches\transforms-1\files-1.1\play-services-ads-lite-15.0.0.aar\ab72c71ddd9590dcd4377f92bfc4fe26\AndroidManifest.xml:23:5-67
-MERGED from [com.google.android.gms:play-services-ads-lite:15.0.0] C:\Users\Carla\.gradle\caches\transforms-1\files-1.1\play-services-ads-lite-15.0.0.aar\ab72c71ddd9590dcd4377f92bfc4fe26\AndroidManifest.xml:23:5-67
+MERGED from [com.google.android.gms:play-services-ads-lite:15.0.1] C:\Users\Carla\.gradle\caches\transforms-1\files-1.1\play-services-ads-lite-15.0.1.aar\143ff777ddf3f8745d12d722a0093572\AndroidManifest.xml:23:5-67
+MERGED from [com.google.android.gms:play-services-ads-lite:15.0.1] C:\Users\Carla\.gradle\caches\transforms-1\files-1.1\play-services-ads-lite-15.0.1.aar\143ff777ddf3f8745d12d722a0093572\AndroidManifest.xml:23:5-67
 	android:name
 		ADDED from C:\Users\Carla\Desktop\usb\molecular operations\molecular-operations-free\platforms\android\app\src\main\AndroidManifest.xml:4:22-64
 application
 ADDED from C:\Users\Carla\Desktop\usb\molecular operations\molecular-operations-free\platforms\android\app\src\main\AndroidManifest.xml:5:5-13:19
 MERGED from [com.android.support:customtabs:26.1.0] C:\Users\Carla\.gradle\caches\transforms-1\files-1.1\customtabs-26.1.0.aar\cbb158ed039437e23f4e89dbf05a7077\AndroidManifest.xml:22:5-26:19
 MERGED from [com.android.support:customtabs:26.1.0] C:\Users\Carla\.gradle\caches\transforms-1\files-1.1\customtabs-26.1.0.aar\cbb158ed039437e23f4e89dbf05a7077\AndroidManifest.xml:22:5-26:19
-MERGED from [com.google.android.gms:play-services-ads-lite:15.0.0] C:\Users\Carla\.gradle\caches\transforms-1\files-1.1\play-services-ads-lite-15.0.0.aar\ab72c71ddd9590dcd4377f92bfc4fe26\AndroidManifest.xml:26:5-34:19
-MERGED from [com.google.android.gms:play-services-ads-lite:15.0.0] C:\Users\Carla\.gradle\caches\transforms-1\files-1.1\play-services-ads-lite-15.0.0.aar\ab72c71ddd9590dcd4377f92bfc4fe26\AndroidManifest.xml:26:5-34:19
-MERGED from [com.google.android.gms:play-services-gass:15.0.0] C:\Users\Carla\.gradle\caches\transforms-1\files-1.1\play-services-gass-15.0.0.aar\effbb01378760ca20c1e210382ef0978\AndroidManifest.xml:7:5-20
-MERGED from [com.google.android.gms:play-services-gass:15.0.0] C:\Users\Carla\.gradle\caches\transforms-1\files-1.1\play-services-gass-15.0.0.aar\effbb01378760ca20c1e210382ef0978\AndroidManifest.xml:7:5-20
-MERGED from [com.google.android.gms:play-services-ads-base:15.0.0] C:\Users\Carla\.gradle\caches\transforms-1\files-1.1\play-services-ads-base-15.0.0.aar\c5817e2a9b8161aa4dd9792fd52c346f\AndroidManifest.xml:22:5-20
-MERGED from [com.google.android.gms:play-services-ads-base:15.0.0] C:\Users\Carla\.gradle\caches\transforms-1\files-1.1\play-services-ads-base-15.0.0.aar\c5817e2a9b8161aa4dd9792fd52c346f\AndroidManifest.xml:22:5-20
-MERGED from [com.google.android.gms:play-services-ads-identifier:15.0.0] C:\Users\Carla\.gradle\caches\transforms-1\files-1.1\play-services-ads-identifier-15.0.0.aar\35567c5c2b5df15a19142a194ee2785f\AndroidManifest.xml:22:5-20
-MERGED from [com.google.android.gms:play-services-ads-identifier:15.0.0] C:\Users\Carla\.gradle\caches\transforms-1\files-1.1\play-services-ads-identifier-15.0.0.aar\35567c5c2b5df15a19142a194ee2785f\AndroidManifest.xml:22:5-20
-MERGED from [com.google.android.gms:play-services-basement:15.0.0] C:\Users\Carla\.gradle\caches\transforms-1\files-1.1\play-services-basement-15.0.0.aar\d26889692e11a84bc4004002bed1206a\AndroidManifest.xml:22:5-26:19
-MERGED from [com.google.android.gms:play-services-basement:15.0.0] C:\Users\Carla\.gradle\caches\transforms-1\files-1.1\play-services-basement-15.0.0.aar\d26889692e11a84bc4004002bed1206a\AndroidManifest.xml:22:5-26:19
+MERGED from [com.google.android.gms:play-services-ads-lite:15.0.1] C:\Users\Carla\.gradle\caches\transforms-1\files-1.1\play-services-ads-lite-15.0.1.aar\143ff777ddf3f8745d12d722a0093572\AndroidManifest.xml:26:5-34:19
+MERGED from [com.google.android.gms:play-services-ads-lite:15.0.1] C:\Users\Carla\.gradle\caches\transforms-1\files-1.1\play-services-ads-lite-15.0.1.aar\143ff777ddf3f8745d12d722a0093572\AndroidManifest.xml:26:5-34:19
+MERGED from [com.google.android.gms:play-services-gass:15.0.1] C:\Users\Carla\.gradle\caches\transforms-1\files-1.1\play-services-gass-15.0.1.aar\edc17adde62b6a51933086513160d660\AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-gass:15.0.1] C:\Users\Carla\.gradle\caches\transforms-1\files-1.1\play-services-gass-15.0.1.aar\edc17adde62b6a51933086513160d660\AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-ads-base:15.0.1] C:\Users\Carla\.gradle\caches\transforms-1\files-1.1\play-services-ads-base-15.0.1.aar\f5898c2bf0e1f71c11b3b7917c69e96c\AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-ads-base:15.0.1] C:\Users\Carla\.gradle\caches\transforms-1\files-1.1\play-services-ads-base-15.0.1.aar\f5898c2bf0e1f71c11b3b7917c69e96c\AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-ads-identifier:15.0.1] C:\Users\Carla\.gradle\caches\transforms-1\files-1.1\play-services-ads-identifier-15.0.1.aar\bb8e814acc1ca82a75ea6e5bf6436e20\AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-ads-identifier:15.0.1] C:\Users\Carla\.gradle\caches\transforms-1\files-1.1\play-services-ads-identifier-15.0.1.aar\bb8e814acc1ca82a75ea6e5bf6436e20\AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-basement:15.0.1] C:\Users\Carla\.gradle\caches\transforms-1\files-1.1\play-services-basement-15.0.1.aar\eb1cf09f5e4b9b9cd09bd43e511d59dc\AndroidManifest.xml:22:5-26:19
+MERGED from [com.google.android.gms:play-services-basement:15.0.1] C:\Users\Carla\.gradle\caches\transforms-1\files-1.1\play-services-basement-15.0.1.aar\eb1cf09f5e4b9b9cd09bd43e511d59dc\AndroidManifest.xml:22:5-26:19
 MERGED from [com.android.support:support-v4:26.1.0] C:\Users\Carla\.gradle\caches\transforms-1\files-1.1\support-v4-26.1.0.aar\aa08b336c8e73ff250ff4b2dab77161d\AndroidManifest.xml:25:5-29:19
 MERGED from [com.android.support:support-v4:26.1.0] C:\Users\Carla\.gradle\caches\transforms-1\files-1.1\support-v4-26.1.0.aar\aa08b336c8e73ff250ff4b2dab77161d\AndroidManifest.xml:25:5-29:19
 MERGED from [com.android.support:support-media-compat:26.1.0] C:\Users\Carla\.gradle\caches\transforms-1\files-1.1\support-media-compat-26.1.0.aar\9d229d4b920c7f09f2efef6f0163b70f\AndroidManifest.xml:25:5-29:19
@@ -122,10 +122,10 @@ ADDED from C:\Users\Carla\Desktop\usb\molecular operations\molecular-operations-
 		ADDED from C:\Users\Carla\Desktop\usb\molecular operations\molecular-operations-free\platforms\android\app\src\main\AndroidManifest.xml:9:27-74
 activity#com.google.android.gms.ads.AdActivity
 ADDED from C:\Users\Carla\Desktop\usb\molecular operations\molecular-operations-free\platforms\android\app\src\main\AndroidManifest.xml:12:9-233
-MERGED from [com.google.android.gms:play-services-ads-lite:15.0.0] C:\Users\Carla\.gradle\caches\transforms-1\files-1.1\play-services-ads-lite-15.0.0.aar\ab72c71ddd9590dcd4377f92bfc4fe26\AndroidManifest.xml:29:9-33:64
-MERGED from [com.google.android.gms:play-services-ads-lite:15.0.0] C:\Users\Carla\.gradle\caches\transforms-1\files-1.1\play-services-ads-lite-15.0.0.aar\ab72c71ddd9590dcd4377f92bfc4fe26\AndroidManifest.xml:29:9-33:64
+MERGED from [com.google.android.gms:play-services-ads-lite:15.0.1] C:\Users\Carla\.gradle\caches\transforms-1\files-1.1\play-services-ads-lite-15.0.1.aar\143ff777ddf3f8745d12d722a0093572\AndroidManifest.xml:29:9-33:64
+MERGED from [com.google.android.gms:play-services-ads-lite:15.0.1] C:\Users\Carla\.gradle\caches\transforms-1\files-1.1\play-services-ads-lite-15.0.1.aar\143ff777ddf3f8745d12d722a0093572\AndroidManifest.xml:29:9-33:64
 	android:exported
-		ADDED from [com.google.android.gms:play-services-ads-lite:15.0.0] C:\Users\Carla\.gradle\caches\transforms-1\files-1.1\play-services-ads-lite-15.0.0.aar\ab72c71ddd9590dcd4377f92bfc4fe26\AndroidManifest.xml:32:13-37
+		ADDED from [com.google.android.gms:play-services-ads-lite:15.0.1] C:\Users\Carla\.gradle\caches\transforms-1\files-1.1\play-services-ads-lite-15.0.1.aar\143ff777ddf3f8745d12d722a0093572\AndroidManifest.xml:32:13-37
 	android:configChanges
 		ADDED from C:\Users\Carla\Desktop\usb\molecular operations\molecular-operations-free\platforms\android\app\src\main\AndroidManifest.xml:12:19-128
 	android:theme
@@ -134,22 +134,22 @@ MERGED from [com.google.android.gms:play-services-ads-lite:15.0.0] C:\Users\Carl
 		ADDED from C:\Users\Carla\Desktop\usb\molecular operations\molecular-operations-free\platforms\android\app\src\main\AndroidManifest.xml:12:129-181
 uses-sdk
 ADDED from C:\Users\Carla\Desktop\usb\molecular operations\molecular-operations-free\platforms\android\app\src\main\AndroidManifest.xml:14:5-74
-MERGED from [com.google.android.gms:play-services-ads:15.0.0] C:\Users\Carla\.gradle\caches\transforms-1\files-1.1\play-services-ads-15.0.0.aar\7d41b47f62ca95450d7616c84ebb99f4\AndroidManifest.xml:21:5-23:62
-MERGED from [com.google.android.gms:play-services-ads:15.0.0] C:\Users\Carla\.gradle\caches\transforms-1\files-1.1\play-services-ads-15.0.0.aar\7d41b47f62ca95450d7616c84ebb99f4\AndroidManifest.xml:21:5-23:62
+MERGED from [com.google.android.gms:play-services-ads:15.0.1] C:\Users\Carla\.gradle\caches\transforms-1\files-1.1\play-services-ads-15.0.1.aar\7a50d3a51bbd1d41ee8a2b7d26a22be1\AndroidManifest.xml:21:5-23:62
+MERGED from [com.google.android.gms:play-services-ads:15.0.1] C:\Users\Carla\.gradle\caches\transforms-1\files-1.1\play-services-ads-15.0.1.aar\7a50d3a51bbd1d41ee8a2b7d26a22be1\AndroidManifest.xml:21:5-23:62
 MERGED from [:CordovaLib] C:\Users\Carla\Desktop\usb\molecular operations\molecular-operations-free\platforms\android\CordovaLib\build\intermediates\manifests\full\debug\AndroidManifest.xml:25:5-44
 MERGED from [:CordovaLib] C:\Users\Carla\Desktop\usb\molecular operations\molecular-operations-free\platforms\android\CordovaLib\build\intermediates\manifests\full\debug\AndroidManifest.xml:25:5-44
 MERGED from [com.android.support:customtabs:26.1.0] C:\Users\Carla\.gradle\caches\transforms-1\files-1.1\customtabs-26.1.0.aar\cbb158ed039437e23f4e89dbf05a7077\AndroidManifest.xml:20:5-44
 MERGED from [com.android.support:customtabs:26.1.0] C:\Users\Carla\.gradle\caches\transforms-1\files-1.1\customtabs-26.1.0.aar\cbb158ed039437e23f4e89dbf05a7077\AndroidManifest.xml:20:5-44
-MERGED from [com.google.android.gms:play-services-ads-lite:15.0.0] C:\Users\Carla\.gradle\caches\transforms-1\files-1.1\play-services-ads-lite-15.0.0.aar\ab72c71ddd9590dcd4377f92bfc4fe26\AndroidManifest.xml:20:5-44
-MERGED from [com.google.android.gms:play-services-ads-lite:15.0.0] C:\Users\Carla\.gradle\caches\transforms-1\files-1.1\play-services-ads-lite-15.0.0.aar\ab72c71ddd9590dcd4377f92bfc4fe26\AndroidManifest.xml:20:5-44
-MERGED from [com.google.android.gms:play-services-gass:15.0.0] C:\Users\Carla\.gradle\caches\transforms-1\files-1.1\play-services-gass-15.0.0.aar\effbb01378760ca20c1e210382ef0978\AndroidManifest.xml:5:5-44
-MERGED from [com.google.android.gms:play-services-gass:15.0.0] C:\Users\Carla\.gradle\caches\transforms-1\files-1.1\play-services-gass-15.0.0.aar\effbb01378760ca20c1e210382ef0978\AndroidManifest.xml:5:5-44
-MERGED from [com.google.android.gms:play-services-ads-base:15.0.0] C:\Users\Carla\.gradle\caches\transforms-1\files-1.1\play-services-ads-base-15.0.0.aar\c5817e2a9b8161aa4dd9792fd52c346f\AndroidManifest.xml:20:5-44
-MERGED from [com.google.android.gms:play-services-ads-base:15.0.0] C:\Users\Carla\.gradle\caches\transforms-1\files-1.1\play-services-ads-base-15.0.0.aar\c5817e2a9b8161aa4dd9792fd52c346f\AndroidManifest.xml:20:5-44
-MERGED from [com.google.android.gms:play-services-ads-identifier:15.0.0] C:\Users\Carla\.gradle\caches\transforms-1\files-1.1\play-services-ads-identifier-15.0.0.aar\35567c5c2b5df15a19142a194ee2785f\AndroidManifest.xml:20:5-44
-MERGED from [com.google.android.gms:play-services-ads-identifier:15.0.0] C:\Users\Carla\.gradle\caches\transforms-1\files-1.1\play-services-ads-identifier-15.0.0.aar\35567c5c2b5df15a19142a194ee2785f\AndroidManifest.xml:20:5-44
-MERGED from [com.google.android.gms:play-services-basement:15.0.0] C:\Users\Carla\.gradle\caches\transforms-1\files-1.1\play-services-basement-15.0.0.aar\d26889692e11a84bc4004002bed1206a\AndroidManifest.xml:20:5-44
-MERGED from [com.google.android.gms:play-services-basement:15.0.0] C:\Users\Carla\.gradle\caches\transforms-1\files-1.1\play-services-basement-15.0.0.aar\d26889692e11a84bc4004002bed1206a\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-ads-lite:15.0.1] C:\Users\Carla\.gradle\caches\transforms-1\files-1.1\play-services-ads-lite-15.0.1.aar\143ff777ddf3f8745d12d722a0093572\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-ads-lite:15.0.1] C:\Users\Carla\.gradle\caches\transforms-1\files-1.1\play-services-ads-lite-15.0.1.aar\143ff777ddf3f8745d12d722a0093572\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-gass:15.0.1] C:\Users\Carla\.gradle\caches\transforms-1\files-1.1\play-services-gass-15.0.1.aar\edc17adde62b6a51933086513160d660\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-gass:15.0.1] C:\Users\Carla\.gradle\caches\transforms-1\files-1.1\play-services-gass-15.0.1.aar\edc17adde62b6a51933086513160d660\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-ads-base:15.0.1] C:\Users\Carla\.gradle\caches\transforms-1\files-1.1\play-services-ads-base-15.0.1.aar\f5898c2bf0e1f71c11b3b7917c69e96c\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-ads-base:15.0.1] C:\Users\Carla\.gradle\caches\transforms-1\files-1.1\play-services-ads-base-15.0.1.aar\f5898c2bf0e1f71c11b3b7917c69e96c\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-ads-identifier:15.0.1] C:\Users\Carla\.gradle\caches\transforms-1\files-1.1\play-services-ads-identifier-15.0.1.aar\bb8e814acc1ca82a75ea6e5bf6436e20\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-ads-identifier:15.0.1] C:\Users\Carla\.gradle\caches\transforms-1\files-1.1\play-services-ads-identifier-15.0.1.aar\bb8e814acc1ca82a75ea6e5bf6436e20\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-basement:15.0.1] C:\Users\Carla\.gradle\caches\transforms-1\files-1.1\play-services-basement-15.0.1.aar\eb1cf09f5e4b9b9cd09bd43e511d59dc\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-basement:15.0.1] C:\Users\Carla\.gradle\caches\transforms-1\files-1.1\play-services-basement-15.0.1.aar\eb1cf09f5e4b9b9cd09bd43e511d59dc\AndroidManifest.xml:20:5-44
 MERGED from [com.android.support:support-v4:26.1.0] C:\Users\Carla\.gradle\caches\transforms-1\files-1.1\support-v4-26.1.0.aar\aa08b336c8e73ff250ff4b2dab77161d\AndroidManifest.xml:21:5-23:54
 MERGED from [com.android.support:support-v4:26.1.0] C:\Users\Carla\.gradle\caches\transforms-1\files-1.1\support-v4-26.1.0.aar\aa08b336c8e73ff250ff4b2dab77161d\AndroidManifest.xml:21:5-23:54
 MERGED from [com.android.support:support-media-compat:26.1.0] C:\Users\Carla\.gradle\caches\transforms-1\files-1.1\support-media-compat-26.1.0.aar\9d229d4b920c7f09f2efef6f0163b70f\AndroidManifest.xml:21:5-23:63
@@ -165,15 +165,15 @@ MERGED from [com.android.support:support-compat:26.1.0] C:\Users\Carla\.gradle\c
 MERGED from [android.arch.lifecycle:runtime:1.0.0] C:\Users\Carla\.gradle\caches\transforms-1\files-1.1\runtime-1.0.0.aar\8c61cb571f474c0d8b4773f61563d559\AndroidManifest.xml:20:5-22:41
 MERGED from [android.arch.lifecycle:runtime:1.0.0] C:\Users\Carla\.gradle\caches\transforms-1\files-1.1\runtime-1.0.0.aar\8c61cb571f474c0d8b4773f61563d559\AndroidManifest.xml:20:5-22:41
 	tools:overrideLibrary
-		ADDED from [com.google.android.gms:play-services-ads:15.0.0] C:\Users\Carla\.gradle\caches\transforms-1\files-1.1\play-services-ads-15.0.0.aar\7d41b47f62ca95450d7616c84ebb99f4\AndroidManifest.xml:23:9-59
+		ADDED from [com.google.android.gms:play-services-ads:15.0.1] C:\Users\Carla\.gradle\caches\transforms-1\files-1.1\play-services-ads-15.0.1.aar\7a50d3a51bbd1d41ee8a2b7d26a22be1\AndroidManifest.xml:23:9-59
 	android:targetSdkVersion
 		ADDED from C:\Users\Carla\Desktop\usb\molecular operations\molecular-operations-free\platforms\android\app\src\main\AndroidManifest.xml:14:42-71
 	android:minSdkVersion
 		ADDED from C:\Users\Carla\Desktop\usb\molecular operations\molecular-operations-free\platforms\android\app\src\main\AndroidManifest.xml:14:15-41
 uses-permission#android.permission.ACCESS_NETWORK_STATE
 ADDED from C:\Users\Carla\Desktop\usb\molecular operations\molecular-operations-free\platforms\android\app\src\main\AndroidManifest.xml:15:5-79
-MERGED from [com.google.android.gms:play-services-ads-lite:15.0.0] C:\Users\Carla\.gradle\caches\transforms-1\files-1.1\play-services-ads-lite-15.0.0.aar\ab72c71ddd9590dcd4377f92bfc4fe26\AndroidManifest.xml:24:5-79
-MERGED from [com.google.android.gms:play-services-ads-lite:15.0.0] C:\Users\Carla\.gradle\caches\transforms-1\files-1.1\play-services-ads-lite-15.0.0.aar\ab72c71ddd9590dcd4377f92bfc4fe26\AndroidManifest.xml:24:5-79
+MERGED from [com.google.android.gms:play-services-ads-lite:15.0.1] C:\Users\Carla\.gradle\caches\transforms-1\files-1.1\play-services-ads-lite-15.0.1.aar\143ff777ddf3f8745d12d722a0093572\AndroidManifest.xml:24:5-79
+MERGED from [com.google.android.gms:play-services-ads-lite:15.0.1] C:\Users\Carla\.gradle\caches\transforms-1\files-1.1\play-services-ads-lite-15.0.1.aar\143ff777ddf3f8745d12d722a0093572\AndroidManifest.xml:24:5-79
 	android:name
 		ADDED from C:\Users\Carla\Desktop\usb\molecular operations\molecular-operations-free\platforms\android\app\src\main\AndroidManifest.xml:15:22-76
 meta-data#android.support.VERSION
@@ -195,11 +195,11 @@ MERGED from [com.android.support:support-compat:26.1.0] C:\Users\Carla\.gradle\c
 	android:name
 		ADDED from [com.android.support:customtabs:26.1.0] C:\Users\Carla\.gradle\caches\transforms-1\files-1.1\customtabs-26.1.0.aar\cbb158ed039437e23f4e89dbf05a7077\AndroidManifest.xml:24:13-51
 meta-data#com.google.android.gms.version
-ADDED from [com.google.android.gms:play-services-basement:15.0.0] C:\Users\Carla\.gradle\caches\transforms-1\files-1.1\play-services-basement-15.0.0.aar\d26889692e11a84bc4004002bed1206a\AndroidManifest.xml:23:9-25:69
+ADDED from [com.google.android.gms:play-services-basement:15.0.1] C:\Users\Carla\.gradle\caches\transforms-1\files-1.1\play-services-basement-15.0.1.aar\eb1cf09f5e4b9b9cd09bd43e511d59dc\AndroidManifest.xml:23:9-25:69
 	android:value
-		ADDED from [com.google.android.gms:play-services-basement:15.0.0] C:\Users\Carla\.gradle\caches\transforms-1\files-1.1\play-services-basement-15.0.0.aar\d26889692e11a84bc4004002bed1206a\AndroidManifest.xml:25:13-66
+		ADDED from [com.google.android.gms:play-services-basement:15.0.1] C:\Users\Carla\.gradle\caches\transforms-1\files-1.1\play-services-basement-15.0.1.aar\eb1cf09f5e4b9b9cd09bd43e511d59dc\AndroidManifest.xml:25:13-66
 	android:name
-		ADDED from [com.google.android.gms:play-services-basement:15.0.0] C:\Users\Carla\.gradle\caches\transforms-1\files-1.1\play-services-basement-15.0.0.aar\d26889692e11a84bc4004002bed1206a\AndroidManifest.xml:24:13-58
+		ADDED from [com.google.android.gms:play-services-basement:15.0.1] C:\Users\Carla\.gradle\caches\transforms-1\files-1.1\play-services-basement-15.0.1.aar\eb1cf09f5e4b9b9cd09bd43e511d59dc\AndroidManifest.xml:24:13-58
 meta-data#android.arch.lifecycle.VERSION
 ADDED from [android.arch.lifecycle:runtime:1.0.0] C:\Users\Carla\.gradle\caches\transforms-1\files-1.1\runtime-1.0.0.aar\8c61cb571f474c0d8b4773f61563d559\AndroidManifest.xml:25:9-27:47
 	android:value

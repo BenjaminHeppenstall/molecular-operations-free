@@ -8,6 +8,6 @@ public final class BuildConfig {
   public static final String APPLICATION_ID = "com.heppenstall.molarityFree";
   public static final String BUILD_TYPE = "debug";
   public static final String FLAVOR = "";
-  public static final int VERSION_CODE = 10401;
-  public static final String VERSION_NAME = "1.4.1";
+  public static final int VERSION_CODE = 10403;
+  public static final String VERSION_NAME = "1.4.3";
 }

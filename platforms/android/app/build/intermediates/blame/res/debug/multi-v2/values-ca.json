@@ -4,24 +4,7 @@
             "outputFile": "C:\\Users\\Carla\\Desktop\\usb\\molecular operations\\molecular-operations-free\\platforms\\android\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-ca\\values-ca.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\Carla\\.gradle\\caches\\transforms-1\\files-1.1\\play-services-ads-15.0.0.aar\\7d41b47f62ca95450d7616c84ebb99f4\\res\\values-ca\\values.xml",
-                    "from": {
-                        "startLines": "4,5,6,7,8,9,10",
-                        "startColumns": "0,0,0,0,0,0,0",
-                        "startOffsets": "197,268,391,456,521,612,732",
-                        "endColumns": "70,122,64,64,90,119,72",
-                        "endOffsets": "267,390,455,520,611,731,804"
-                    },
-                    "to": {
-                        "startLines": "3,4,5,6,7,8,9",
-                        "startColumns": "4,4,4,4,4,4,4",
-                        "startOffsets": "299,374,501,570,639,734,858",
-                        "endColumns": "74,126,68,68,94,123,76",
-                        "endOffsets": "369,496,565,634,729,853,930"
-                    }
-                },
-                {
-                    "source": "C:\\Users\\Carla\\.gradle\\caches\\transforms-1\\files-1.1\\play-services-basement-15.0.0.aar\\d26889692e11a84bc4004002bed1206a\\res\\values-ca\\values.xml",
+                    "source": "C:\\Users\\Carla\\.gradle\\caches\\transforms-1\\files-1.1\\play-services-basement-15.0.1.aar\\eb1cf09f5e4b9b9cd09bd43e511d59dc\\res\\values-ca\\values.xml",
                     "from": {
                         "startLines": "4",
                         "startColumns": "0",
@@ -35,6 +18,23 @@
                         "startOffsets": "105",
                         "endColumns": "193",
                         "endOffsets": "294"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\Carla\\.gradle\\caches\\transforms-1\\files-1.1\\play-services-ads-15.0.1.aar\\7a50d3a51bbd1d41ee8a2b7d26a22be1\\res\\values-ca\\values.xml",
+                    "from": {
+                        "startLines": "4,5,6,7,8,9,10",
+                        "startColumns": "0,0,0,0,0,0,0",
+                        "startOffsets": "197,268,391,456,521,612,732",
+                        "endColumns": "70,122,64,64,90,119,72",
+                        "endOffsets": "267,390,455,520,611,731,804"
+                    },
+                    "to": {
+                        "startLines": "3,4,5,6,7,8,9",
+                        "startColumns": "4,4,4,4,4,4,4",
+                        "startOffsets": "299,374,501,570,639,734,858",
+                        "endColumns": "74,126,68,68,94,123,76",
+                        "endOffsets": "369,496,565,634,729,853,930"
                     }
                 },
                 {
