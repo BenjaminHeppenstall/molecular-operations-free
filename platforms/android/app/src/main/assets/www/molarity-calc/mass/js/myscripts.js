@@ -62,7 +62,7 @@ function calculateMass() {
 			var answer = Math.round(answer * 1000000) / 1000000;
 
 
-	    document.getElementById("answer").innerHTML = answer; 
+	    document.getElementById("answer").innerHTML = Math.round(answer * 100) / 100; 
 		$("#selectMass").show()
 		//document.getElementById("answer").innerHTML = "works";
 			
@@ -125,7 +125,7 @@ function change() {
 	        var answer = Math.round(answer * 1000000) / 1000000;*/
 
 
-	        document.getElementById("answer").innerHTML = answer; 
+	        document.getElementById("answer").innerHTML = Math.round(answer * 100) / 100; 
 		    $("#selectMass").show() 
 		}
 

@@ -30,7 +30,7 @@ function calculateDNAug() {
 		var answer1 = amount * ((1 / 330) * 1000);
         var answer = answer1 * (1 / length);
 
-		document.getElementById("answer").innerHTML = answer + " pmol";
+		document.getElementById("answer").innerHTML = Math.round(answer * 100) / 100 + " pmol";
 		//document.getElementById("answer").innerHTML = "works";
 		
 	}

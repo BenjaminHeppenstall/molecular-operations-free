@@ -31,7 +31,7 @@ function calculateDNAug() {
 		var answer1 = amount * 660;
 	    var answer = answer1 / 1000000 * length;
 
-		document.getElementById("answer").innerHTML = answer + " µg";
+		document.getElementById("answer").innerHTML = Math.round(answer * 100) / 100 + " µg";
 		//document.getElementById("answer").innerHTML = "works";
 		
 	}

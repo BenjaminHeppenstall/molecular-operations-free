@@ -2,8 +2,8 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.heppenstall.molarityFree"
     android:hardwareAccelerated="true"
-    android:versionCode="10403"
-    android:versionName="1.4.3" >
+    android:versionCode="10406"
+    android:versionName="1.4.6" >
 
     <uses-sdk
         android:minSdkVersion="16"

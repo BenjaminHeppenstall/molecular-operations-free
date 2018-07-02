@@ -49,7 +49,7 @@ function calculateLigation() {
 	    //if (answerSize === "1" || "2" || "3") {
 
 	    	var answer = answer * answerSize;
-	    	document.getElementById("answer").innerHTML = answer + " ng insert for";
+	    	document.getElementById("answer").innerHTML = Math.round(answer * 100) / 100 + " ng insert for";
 	    	$("#selectRatio").show()
 
 	   /* else if (answerSize === "4") {
@@ -105,7 +105,7 @@ function change() {
 		    //if (answerSize === "1" || "2" || "3") {
 
 		    	var answer = answer * answerSize;
-		    	document.getElementById("answer").innerHTML = answer + " ng insert for";
+		    	document.getElementById("answer").innerHTML = Math.round(answer * 100) / 100 + " ng insert for";
 	    	    $("#selectRatio").show()
 
 	    	/* else if (answerSize === "4") {

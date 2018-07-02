@@ -42,7 +42,7 @@ function calculateMoles() {
 
 	    if (isNaN(size)) { 
 
-	    	document.getElementById("answer").innerHTML = answer;
+	    	document.getElementById("answer").innerHTML = Math.round(answer * 100) / 100;
 	    	$("#size").show()
 
 	    } else if (size == 0) {
@@ -53,7 +53,7 @@ function calculateMoles() {
 	    } else {
 
 	    var answer = answer * Math.pow(10, size);
-		document.getElementById("answer").innerHTML = answer * answerSize;
+		document.getElementById("answer").innerHTML = Math.round((answer * answerSize) * 100) / 100;
 		$("#size").show()
 		//document.getElementById("answer").innerHTML = "works";
 
