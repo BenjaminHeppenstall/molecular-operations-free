@@ -43,26 +43,41 @@ function calculateMass() {
 
 	} else { 
 
-			var concentration = parseFloat(document.getElementById("concentration").value, 10);
-			var volume = parseFloat(document.getElementById("volume").value, 10);
-			var daltons = parseFloat(document.getElementById("daltons").value, 10);
+		var concentration = parseFloat(document.getElementById("concentration").value, 10);
+		var volume = parseFloat(document.getElementById("volume").value, 10);
+		var daltons = parseFloat(document.getElementById("daltons").value, 10);
 
-			var concentrationSize = parseFloat(document.getElementById("selectConcentration").value, 10);
-			var volumeSize = parseFloat(document.getElementById("selectVolume").value, 10);
-			var daltonsSize = parseFloat(document.getElementById("selectDaltons").value, 10);
+		var concentrationSize = parseFloat(document.getElementById("selectConcentration").value, 10);
+		var volumeSize = parseFloat(document.getElementById("selectVolume").value, 10);
+		var daltonsSize = parseFloat(document.getElementById("selectDaltons").value, 10);
 
-			var concentration = concentration * concentrationSize;
-			var volume = volume * volumeSize;
-			var daltons = daltons * daltonsSize;
+		var concentration = concentration * concentrationSize;
+		var volume = volume * volumeSize;
+		var daltons = daltons * daltonsSize;
 
-			var answer = concentration * volume * daltons; 
-			var answerSize = parseFloat(document.getElementById("selectMass").value, 10);
+		var answer = concentration * volume * daltons; 
+		var answerSize = parseFloat(document.getElementById("selectMass").value, 10);
 
-			var answer = answer * answerSize;
-			var answer = Math.round(answer * 1000000) / 1000000;
+		var answer = answer * answerSize;
+		var answer = Math.round(answer * 1000000) / 1000000;
 
+		try {
+	    	var StringAnswer = String(answer);
+	    	var res = StringAnswer.split(".");
+	    	var answer2 = "0." + res[1];
+	    	var answer3 = parseFloat(answer2);
+	    	var answer3 = answer3.toPrecision(2);
+	    	var StringAnswer2 = String(answer3);
+	    	var res1 = StringAnswer2.split(".");
+	    	var answer = res[0] + "." + res1[1];
+	    	var answer = parseFloat(answer);
+	    	
+	    }
+	    catch(err) {
 
-	    document.getElementById("answer").innerHTML = Math.round(answer * 100) / 100; 
+	    }
+
+	    document.getElementById("answer").innerHTML = answer; 
 		$("#selectMass").show()
 		//document.getElementById("answer").innerHTML = "works";
 			
@@ -124,8 +139,23 @@ function change() {
     	   	var answer = answer * answerSize;
 	        var answer = Math.round(answer * 1000000) / 1000000;*/
 
+	        try {
+		    	var StringAnswer = String(answer);
+		    	var res = StringAnswer.split(".");
+		    	var answer2 = "0." + res[1];
+		    	var answer3 = parseFloat(answer2);
+		    	var answer3 = answer3.toPrecision(2);
+		    	var StringAnswer2 = String(answer3);
+		    	var res1 = StringAnswer2.split(".");
+		    	var answer = res[0] + "." + res1[1];
+		    	var answer = parseFloat(answer);
+		    	
+		    }
+		    catch(err) {
 
-	        document.getElementById("answer").innerHTML = Math.round(answer * 100) / 100; 
+		    }
+
+	        document.getElementById("answer").innerHTML = answer; 
 		    $("#selectMass").show() 
 		}
 

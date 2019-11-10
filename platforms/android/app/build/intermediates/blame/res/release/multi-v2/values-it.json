@@ -1,27 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "C:\\Users\\Carla\\Desktop\\usb\\molecular operations\\molecular-operations-free\\platforms\\android\\app\\build\\intermediates\\incremental\\mergeReleaseResources\\merged.dir\\values-it\\values-it.xml",
+            "outputFile": "C:\\Users\\Carla\\Desktop\\everything\\usb\\molecular operations\\molecular-operations-free\\platforms\\android\\app\\build\\intermediates\\incremental\\mergeReleaseResources\\merged.dir\\values-it\\values-it.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\Carla\\.gradle\\caches\\transforms-1\\files-1.1\\play-services-ads-15.0.1.aar\\7a50d3a51bbd1d41ee8a2b7d26a22be1\\res\\values-it\\values.xml",
-                    "from": {
-                        "startLines": "4,5,6,7,8,9,10",
-                        "startColumns": "0,0,0,0,0,0,0",
-                        "startOffsets": "197,268,397,462,527,610,722",
-                        "endColumns": "70,128,64,64,82,111,74",
-                        "endOffsets": "267,396,461,526,609,721,796"
-                    },
-                    "to": {
-                        "startLines": "3,4,5,6,7,8,9",
-                        "startColumns": "4,4,4,4,4,4,4",
-                        "startOffsets": "300,375,508,577,646,733,849",
-                        "endColumns": "74,132,68,68,86,115,78",
-                        "endOffsets": "370,503,572,641,728,844,923"
-                    }
-                },
-                {
-                    "source": "C:\\Users\\Carla\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-26.1.0.aar\\3b0cf2419509e5d0d5f22ff9ba4f89ca\\res\\values-it\\values-it.xml",
+                    "source": "C:\\Users\\Carla\\.gradle\\caches\\transforms-1\\files-1.1\\core-1.0.0.aar\\d922f5475f7d601d1e64adb88b3ea925\\res\\values-it\\values-it.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",
@@ -32,13 +15,13 @@
                     "to": {
                         "startLines": "10",
                         "startColumns": "4",
-                        "startOffsets": "928",
+                        "startOffsets": "927",
                         "endColumns": "100",
-                        "endOffsets": "1024"
+                        "endOffsets": "1023"
                     }
                 },
                 {
-                    "source": "C:\\Users\\Carla\\.gradle\\caches\\transforms-1\\files-1.1\\play-services-basement-15.0.1.aar\\eb1cf09f5e4b9b9cd09bd43e511d59dc\\res\\values-it\\values.xml",
+                    "source": "C:\\Users\\Carla\\.gradle\\caches\\transforms-1\\files-1.1\\jetified-play-services-basement-17.0.0.aar\\7f068295c84e1c52fffc56fcb7099cd7\\res\\values-it\\values.xml",
                     "from": {
                         "startLines": "4",
                         "startColumns": "0",
@@ -52,6 +35,23 @@
                         "startOffsets": "105",
                         "endColumns": "194",
                         "endOffsets": "295"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\Carla\\.gradle\\caches\\transforms-1\\files-1.1\\jetified-play-services-ads-18.3.0.aar\\b5e1cae043e5c3fa22b5e9df21f9d16b\\res\\values-it\\values.xml",
+                    "from": {
+                        "startLines": "4,5,6,7,8,9,10",
+                        "startColumns": "0,0,0,0,0,0,0",
+                        "startOffsets": "199,270,399,464,529,612,724",
+                        "endColumns": "70,128,64,64,82,111,73",
+                        "endOffsets": "269,398,463,528,611,723,797"
+                    },
+                    "to": {
+                        "startLines": "3,4,5,6,7,8,9",
+                        "startColumns": "4,4,4,4,4,4,4",
+                        "startOffsets": "300,375,508,577,646,733,849",
+                        "endColumns": "74,132,68,68,86,115,77",
+                        "endOffsets": "370,503,572,641,728,844,922"
                     }
                 }
             ]

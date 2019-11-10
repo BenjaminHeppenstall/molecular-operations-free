@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "C:\\Users\\Carla\\Desktop\\usb\\molecular operations\\molecular-operations-free\\platforms\\android\\app\\build\\intermediates\\incremental\\mergeReleaseResources\\merged.dir\\values-hy\\values-hy.xml",
+            "outputFile": "C:\\Users\\Carla\\Desktop\\everything\\usb\\molecular operations\\molecular-operations-free\\platforms\\android\\app\\build\\intermediates\\incremental\\mergeReleaseResources\\merged.dir\\values-hy\\values-hy.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\Carla\\.gradle\\caches\\transforms-1\\files-1.1\\play-services-basement-15.0.1.aar\\eb1cf09f5e4b9b9cd09bd43e511d59dc\\res\\values-hy\\values.xml",
+                    "source": "C:\\Users\\Carla\\.gradle\\caches\\transforms-1\\files-1.1\\jetified-play-services-basement-17.0.0.aar\\7f068295c84e1c52fffc56fcb7099cd7\\res\\values-hy\\values.xml",
                     "from": {
                         "startLines": "4",
                         "startColumns": "0",
@@ -21,7 +21,7 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\Carla\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-26.1.0.aar\\3b0cf2419509e5d0d5f22ff9ba4f89ca\\res\\values-hy\\values-hy.xml",
+                    "source": "C:\\Users\\Carla\\.gradle\\caches\\transforms-1\\files-1.1\\core-1.0.0.aar\\d922f5475f7d601d1e64adb88b3ea925\\res\\values-hy\\values-hy.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",
@@ -32,26 +32,26 @@
                     "to": {
                         "startLines": "10",
                         "startColumns": "4",
-                        "startOffsets": "918",
+                        "startOffsets": "920",
                         "endColumns": "100",
-                        "endOffsets": "1014"
+                        "endOffsets": "1016"
                     }
                 },
                 {
-                    "source": "C:\\Users\\Carla\\.gradle\\caches\\transforms-1\\files-1.1\\play-services-ads-15.0.1.aar\\7a50d3a51bbd1d41ee8a2b7d26a22be1\\res\\values-hy\\values.xml",
+                    "source": "C:\\Users\\Carla\\.gradle\\caches\\transforms-1\\files-1.1\\jetified-play-services-ads-18.3.0.aar\\b5e1cae043e5c3fa22b5e9df21f9d16b\\res\\values-hy\\values.xml",
                     "from": {
                         "startLines": "4,5,6,7,8,9,10",
                         "startColumns": "0,0,0,0,0,0,0",
-                        "startOffsets": "197,267,374,440,504,590,697",
-                        "endColumns": "69,106,65,63,85,106,74",
-                        "endOffsets": "266,373,439,503,589,696,771"
+                        "startOffsets": "199,269,377,443,507,593,701",
+                        "endColumns": "69,107,65,63,85,107,74",
+                        "endOffsets": "268,376,442,506,592,700,775"
                     },
                     "to": {
                         "startLines": "3,4,5,6,7,8,9",
                         "startColumns": "4,4,4,4,4,4,4",
-                        "startOffsets": "315,389,500,570,638,728,839",
-                        "endColumns": "73,110,69,67,89,110,78",
-                        "endOffsets": "384,495,565,633,723,834,913"
+                        "startOffsets": "315,389,501,571,639,729,841",
+                        "endColumns": "73,111,69,67,89,111,78",
+                        "endOffsets": "384,496,566,634,724,836,915"
                     }
                 }
             ]

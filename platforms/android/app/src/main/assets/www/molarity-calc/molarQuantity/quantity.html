@@ -1,0 +1,61 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+	<script src="js/myscripts.js"></script>
+	<script src="../../jQuery/jquery-3.3.1.min.js"></script>
+</head>
+<link rel="stylesheet" href="styles/mystyles.css" />
+<body background="images/background.png">
+
+	<div class="header">
+		<button class="backBtn" id="backButton" onclick="location.href='../molarity-calc.html'"><img src="images/back.png"></button>
+		<h1 class="heading">Molar<br>Concentration</h1>
+	</div>
+
+	<div class="container">
+
+	<label class="top">please enter Molar Quantity</label><br>
+	<input type="number" id="concentration" />
+
+	<select class="inputs" id="selectConcentration" onchange="change()">
+		<option value="1">fMol</option>
+		<option value="1000" selected="selected">pMol</option>
+		<option value="1000000">nMol</option>
+		<option value="1000000000">µMol</option>
+		<option value="1000000000000">mMol</option>
+		<option value="1000000000000000">Mol</option>
+	</select>  <br> <br>
+
+	<label>please enter Volume</label><br>
+	<input type="number" id="volume" />
+
+	<select class="inputs" id="selectVolume" onchange="change()">
+		<option value="0.000000000000001">femtolitre</option>
+		<option value="0.000000000001">picolitre</option>
+		<option value="0.000000001">nanolitre</option>
+		<option value="0.000001" selected="selected">microlitre</option>
+		<option value="0.001">millilitre</option>
+		<option value="1">litre</option>
+	</select> <br> <br>
+
+	<div id="answerDiv">
+		<p id="answer" style="display: inline-block;"></p>
+		<select id="selectMass" onchange="change()">
+			<option value="1">femtomolar</option>
+			<option value="0.001">picomolar</option>
+			<option value="0.000001">nanomolar</option>
+			<option value="0.000000001" selected="selected">micromolar</option> 
+			<option value="0.000000000001">millimolar</option>
+			<option value="0.000000000000001">molar</option>
+		</select> <br> <br>
+	</div>
+
+	<button id="calcBtn" onclick="calculateMass()">calculate</button> <br>
+
+	<div id="demo"></div>
+
+	</div>
+
+	<script src="js/myscripts.js"></script>
+</body>
+</html>

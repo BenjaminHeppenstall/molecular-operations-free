@@ -34,9 +34,44 @@ function calculateMolecules() {
 
 	    var answer = power * answer1;
 
+	    /*try {
+	    	var StringAnswer = String(answer);
+	    	var res = StringAnswer.split(".");
+	    	var answer2 = "0." + res[1];
+	    	var answer3 = parseFloat(answer2);
+	    	var answer3 = answer3.toPrecision(2);
+	    	var StringAnswer2 = String(answer3);
+	    	var res1 = StringAnswer2.split(".");
+	    	var answer = res[0] + "." + res1[1];
+	    	var answer = parseFloat(answer);
+	    	
+	    }
+	    catch(err) {
+	    	//round here to avoid integer inaccuracies
+	    }*/
+
 	    if (isNaN(size)) { 
 
-	    	document.getElementById("answer").innerHTML = Math.round(answer * 100) / 100 + " molecules";
+	    	try {
+		    	var StringAnswer = String(answer);
+		    	if (StringAnswer.indexOf('e') > -1){
+		    		var res = StringAnswer.split("e");
+			    	var answer2 = res[0];
+			    	var answer3 = parseFloat(answer2);
+			    	var answer3 = Math.round(answer3 * 10000000000000) / 10000000000000;
+			    	var StringAnswer2 = String(answer3);
+			    	var answer = StringAnswer2 + "e" + res[1];
+			    	var answer = parseFloat(answer);
+			    } else {
+		    		var answer = Math.round(answer / 100) * 100;
+		    	}
+		    	
+		    }
+		    catch(err) {
+		    	//round here to avoid integer inaccuracies
+		    }
+
+	    	document.getElementById("answer").innerHTML = Math.round(answer / 10000) * 10000 + " molecules";
 
 	    } else if (size == 0) {
 
@@ -44,7 +79,29 @@ function calculateMolecules() {
 
 	    } else {
 
-			document.getElementById("answer").innerHTML = Math.round((answer * size) * 100) / 100 + " molecules";
+	    	//var answer = answer * size;
+
+	    	try {
+		    	var StringAnswer = String(answer);
+		    	if (StringAnswer.indexOf('e') > -1){
+		    		var res = StringAnswer.split("e");
+			    	var answer2 = res[0];
+			    	var answer3 = parseFloat(answer2);
+			    	var answer3 = Math.round(answer3 * 10000000000000) / 10000000000000;
+			    	var StringAnswer2 = String(answer3);
+			    	var answer = StringAnswer2 + "e" + res[1];
+			    	var answer = parseFloat(answer);
+			    } else {
+		    		var answer = Math.round(answer / 100) * 100;
+		    	}
+		    	
+		    }
+		    catch(err) {
+		    	//round here to avoid integer inaccuracies
+		    }
+
+
+			document.getElementById("answer").innerHTML = Math.round(answer * size / 10000) * 10000 + " molecules";
 			//document.getElementById("answer").innerHTML = "works";
 
 		}
@@ -73,7 +130,26 @@ function change() {
 
 	    if (isNaN(size)) { 
 
-	    	document.getElementById("answer").innerHTML = answer + " molecules";
+	    	try {
+		    	var StringAnswer = String(answer);
+		    	if (StringAnswer.indexOf('e') > -1){
+		    		var res = StringAnswer.split("e");
+			    	var answer2 = res[0];
+			    	var answer3 = parseFloat(answer2);
+			    	var answer3 = Math.round(answer3 * 10000000000000) / 10000000000000;
+			    	var StringAnswer2 = String(answer3);
+			    	var answer = StringAnswer2 + "e" + res[1];
+			    	var answer = parseFloat(answer);
+			    } else {
+		    		var answer = Math.round(answer / 100000000000) * 100000000000;
+		    	}
+		    }
+		    catch(err) {
+		    	//round here to avoid integer inaccuracies
+		    }
+
+
+	    	document.getElementById("answer").innerHTML = Math.round(answer / 10000) * 10000 + " molecules";
 
 	    } else if (size == 0) {
 
@@ -81,7 +157,28 @@ function change() {
 
 	    } else {
 
-			document.getElementById("answer").innerHTML = answer * size + " molecules";
+	    	//var answer = answer * size;
+
+	    	try {
+		    	var StringAnswer = String(answer);
+		    	if (StringAnswer.indexOf('e') > -1){
+		    		var res = StringAnswer.split("e");
+			    	var answer2 = res[0];
+			    	var answer3 = parseFloat(answer2);
+			    	var answer3 = Math.round(answer3 * 10000000000000) / 10000000000000;
+			    	var StringAnswer2 = String(answer3);
+			    	var answer = StringAnswer2 + "e" + res[1];
+			    	var answer = parseFloat(answer);
+			    } else {
+			    	var answer = Math.round(answer / 100000000000) * 100000000000;
+		    	}
+		    }
+		    catch(err) {
+		    	//round here to avoid integer inaccuracies
+		    }
+
+
+			document.getElementById("answer").innerHTML = Math.round(answer * size / 10000) * 10000 + " molecules";
 			//document.getElementById("answer").innerHTML = "works";
 
 		}

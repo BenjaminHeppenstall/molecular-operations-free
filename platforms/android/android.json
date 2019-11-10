@@ -46,6 +46,10 @@
     }
   },
   "installed_plugins": {
+    "cordova-android-support-gradle-release": {
+      "ANDROID_SUPPORT_VERSION": "27.+",
+      "PACKAGE_NAME": "com.heppenstall.molarityFree"
+    },
     "cordova-plugin-extension": {
       "PACKAGE_NAME": "com.heppenstall.molarityFree"
     },
@@ -56,6 +60,12 @@
       "PACKAGE_NAME": "com.heppenstall.molarityFree"
     },
     "cordova-plugin-whitelist": {
+      "PACKAGE_NAME": "com.heppenstall.molarityFree"
+    },
+    "cordova-plugin-androidx": {
+      "PACKAGE_NAME": "com.heppenstall.molarityFree"
+    },
+    "cordova-plugin-androidx-adapter": {
       "PACKAGE_NAME": "com.heppenstall.molarityFree"
     }
   },
@@ -80,9 +90,12 @@
     }
   ],
   "plugin_metadata": {
+    "cordova-android-support-gradle-release": "3.0.1",
     "cordova-plugin-extension": "1.5.4",
     "cordova-plugin-admobpro": "2.31.5",
     "cordova-plugin-inappbrowser": "3.0.0",
-    "cordova-plugin-whitelist": "1.3.3"
+    "cordova-plugin-whitelist": "1.3.3",
+    "cordova-plugin-androidx": "1.0.2",
+    "cordova-plugin-androidx-adapter": "1.1.0"
   }
 }

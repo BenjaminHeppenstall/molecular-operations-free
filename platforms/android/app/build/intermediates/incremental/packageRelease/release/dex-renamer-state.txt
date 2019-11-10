@@ -1,4 +1,0 @@
-#Mon Jul 02 21:21:40 CEST 2018
-base.0=C\:\\Users\\Carla\\Desktop\\usb\\molecular operations\\molecular-operations-free\\platforms\\android\\app\\build\\intermediates\\transforms\\dex\\release\\0
-renamed.0=classes.dex
-file.0=C\:\\Users\\Carla\\Desktop\\usb\\molecular operations\\molecular-operations-free\\platforms\\android\\app\\build\\intermediates\\transforms\\dex\\release\\0\\classes.dex

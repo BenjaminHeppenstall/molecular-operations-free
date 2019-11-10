@@ -48,9 +48,24 @@ function calculateLigation() {
 	    
 	    //if (answerSize === "1" || "2" || "3") {
 
-	    	var answer = answer * answerSize;
-	    	document.getElementById("answer").innerHTML = Math.round(answer * 100) / 100 + " ng insert for";
-	    	$("#selectRatio").show()
+	    var answer = answer * answerSize;
+	    try {
+	    	var StringAnswer = String(answer);
+	    	var res = StringAnswer.split(".");
+	    	var answer2 = "0." + res[1];
+	    	var answer3 = parseFloat(answer2);
+	    	var answer3 = answer3.toPrecision(2);
+	    	var StringAnswer2 = String(answer3);
+	    	var res1 = StringAnswer2.split(".");
+	    	var answer = res[0] + "." + res1[1];
+	    	var answer = parseFloat(answer);
+	    	
+	    }
+	    catch(err) {
+
+	    }
+	    document.getElementById("answer").innerHTML = answer + " ng insert for";
+	    $("#selectRatio").show()
 
 	   /* else if (answerSize === "4") {
 
@@ -104,9 +119,25 @@ function change() {
 		    var answerSize = parseFloat(document.getElementById("selectRatio").value, 10);
 		    //if (answerSize === "1" || "2" || "3") {
 
-		    	var answer = answer * answerSize;
-		    	document.getElementById("answer").innerHTML = Math.round(answer * 100) / 100 + " ng insert for";
-	    	    $("#selectRatio").show()
+		    var answer = answer * answerSize;
+
+		    try {
+		    	var StringAnswer = String(answer);
+		    	var res = StringAnswer.split(".");
+		    	var answer2 = "0." + res[1];
+		    	var answer3 = parseFloat(answer2);
+		    	var answer3 = answer3.toPrecision(2);
+		    	var StringAnswer2 = String(answer3);
+		    	var res1 = StringAnswer2.split(".");
+		    	var answer = res[0] + "." + res1[1];
+		    	var answer = parseFloat(answer);
+		    }
+		    catch(err) {
+
+		    }
+
+		    document.getElementById("answer").innerHTML = answer + " ng insert for";
+	    	$("#selectRatio").show()
 
 	    	/* else if (answerSize === "4") {
 

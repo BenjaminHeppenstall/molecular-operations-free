@@ -7,6 +7,10 @@
     "files": {}
   },
   "installed_plugins": {
+    "cordova-android-support-gradle-release": {
+      "ANDROID_SUPPORT_VERSION": "27.+",
+      "PACKAGE_NAME": "com.heppenstall.molarityFree"
+    },
     "cordova-plugin-admobpro": {
       "PACKAGE_NAME": "com.heppenstall.molarityFree"
     },
@@ -14,6 +18,12 @@
       "PACKAGE_NAME": "com.heppenstall.molarityFree"
     },
     "cordova-plugin-whitelist": {
+      "PACKAGE_NAME": "com.heppenstall.molarityFree"
+    },
+    "cordova-plugin-androidx": {
+      "PACKAGE_NAME": "com.heppenstall.molarityFree"
+    },
+    "cordova-plugin-androidx-adapter": {
       "PACKAGE_NAME": "com.heppenstall.molarityFree"
     }
   },

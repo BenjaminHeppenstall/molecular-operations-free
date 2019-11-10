@@ -57,8 +57,23 @@ function calculateVolume() {
 	   	var answer = answer * answerSize;
 	    var answer = Math.round(answer * 1000000) / 1000000;
 
+	    try {
+	    	var StringAnswer = String(answer);
+	    	var res = StringAnswer.split(".");
+	    	var answer2 = "0." + res[1];
+	    	var answer3 = parseFloat(answer2);
+	    	var answer3 = answer3.toPrecision(2);
+	    	var StringAnswer2 = String(answer3);
+	    	var res1 = StringAnswer2.split(".");
+	    	var answer = res[0] + "." + res1[1];
+	    	var answer = parseFloat(answer);
+	    	
+	    }
+	    catch(err) {
 
-	    document.getElementById("answer").innerHTML = Math.round(answer * 100) / 100; 
+	    }
+
+	    document.getElementById("answer").innerHTML = answer; 
 		$("#selectVolume").show()
 		//document.getElementById("answer").innerHTML = "works";
 			
@@ -111,8 +126,23 @@ function change() {
     	   	var answer = answer * answerSize;
 	        var answer = Math.round(answer * 1000000) / 1000000;
 
+	        try {
+		    	var StringAnswer = String(answer);
+		    	var res = StringAnswer.split(".");
+		    	var answer2 = "0." + res[1];
+		    	var answer3 = parseFloat(answer2);
+		    	var answer3 = answer3.toPrecision(2);
+		    	var StringAnswer2 = String(answer3);
+		    	var res1 = StringAnswer2.split(".");
+		    	var answer = res[0] + "." + res1[1];
+		    	var answer = parseFloat(answer);
+		    	
+		    }
+		    catch(err) {
 
-	        document.getElementById("answer").innerHTML = Math.round(answer * 100) / 100; 
+		    }
+
+	        document.getElementById("answer").innerHTML = answer; 
 		    $("#selectVolume").show() 
 		}
 

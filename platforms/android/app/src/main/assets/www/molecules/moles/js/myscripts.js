@@ -40,9 +40,42 @@ function calculateMoles() {
 
 	    var answer = power * answer1;
 
+	    /*try {
+	    	var StringAnswer = String(answer);
+	    	var res = StringAnswer.split(".");
+	    	var answer2 = "0." + res[1];
+	    	var answer3 = parseFloat(answer2);
+	    	var answer3 = answer3.toPrecision(2);
+	    	var StringAnswer2 = String(answer3);
+	    	var res1 = StringAnswer2.split(".");
+	    	var answer = res[0] + "." + res1[1];
+	    	var answer = parseFloat(answer);
+	    	
+	    }
+	    catch(err) {
+	    	//round here to avoid integer inaccuracies
+	    }*/
+
 	    if (isNaN(size)) { 
 
-	    	document.getElementById("answer").innerHTML = Math.round(answer * 100) / 100;
+	    	var answer = answer * answerSize;
+
+	    	try {
+		    	var StringAnswer = String(answer);
+		    	var res = StringAnswer.split("e");
+		    	var answer2 = res[0];
+		    	var answer3 = parseFloat(answer2);
+		    	var answer3 = Math.round(answer3 * 10000000000) / 10000000000;
+		    	var StringAnswer2 = String(answer3);
+		    	var answer = StringAnswer2 + "e" + res[1];
+		    	var answer = parseFloat(answer);
+		    	
+		    }
+		    catch(err) {
+		    	//round here to avoid integer inaccuracies
+		    }
+
+	    	document.getElementById("answer").innerHTML = answer;
 	    	$("#size").show()
 
 	    } else if (size == 0) {
@@ -52,10 +85,27 @@ function calculateMoles() {
 
 	    } else {
 
-	    var answer = answer * Math.pow(10, size);
-		document.getElementById("answer").innerHTML = Math.round((answer * answerSize) * 100) / 100;
-		$("#size").show()
-		//document.getElementById("answer").innerHTML = "works";
+		    var answer = answer * Math.pow(10, size);
+		    var answer = answer * answerSize;
+
+	    	try {
+		    	var StringAnswer = String(answer);
+		    	var res = StringAnswer.split("e");
+		    	var answer2 = res[0];
+		    	var answer3 = parseFloat(answer2);
+		    	var answer3 = Math.round(answer3 * 10000000000) / 10000000000;
+		    	var StringAnswer2 = String(answer3);
+		    	var answer = StringAnswer2 + "e" + res[1];
+		    	var answer = parseFloat(answer);
+		    	
+		    }
+		    catch(err) {
+		    	//round here to avoid integer inaccuracies
+		    }
+
+	    	document.getElementById("answer").innerHTML = answer;
+			$("#size").show()
+			//document.getElementById("answer").innerHTML = "works";
 
 		}
 		
@@ -83,7 +133,40 @@ function change() {
 
 	    var answer = power * answer1;
 
-	    if (isNaN(size)) { 
+	    /*try {
+	    	var StringAnswer = String(answer);
+	    	var res = StringAnswer.split(".");
+	    	var answer2 = "0." + res[1];
+	    	var answer3 = parseFloat(answer2);
+	    	var answer3 = answer3.toPrecision(2);
+	    	var StringAnswer2 = String(answer3);
+	    	var res1 = StringAnswer2.split(".");
+	    	var answer = res[0] + "." + res1[1];
+	    	var answer = parseFloat(answer);
+	    	
+	    }
+	    catch(err) {
+	    	//round here to avoid integer inaccuracies
+	    }*/
+
+	    if (isNaN(size)) {
+
+	    	var answer = answer * answerSize;
+
+	    	try {
+		    	var StringAnswer = String(answer);
+		    	var res = StringAnswer.split("e");
+		    	var answer2 = res[0];
+		    	var answer3 = parseFloat(answer2);
+		    	var answer3 = Math.round(answer3 * 10000000000) / 10000000000;
+		    	var StringAnswer2 = String(answer3);
+		    	var answer = StringAnswer2 + "e" + res[1];
+		    	var answer = parseFloat(answer);
+		    	
+		    }
+		    catch(err) {
+		    	//round here to avoid integer inaccuracies
+		    }
 
 	    	document.getElementById("answer").innerHTML = answer;
 	    	$("#size").show()
@@ -95,10 +178,27 @@ function change() {
 
 	    } else {
 
-	    var answer = answer * Math.pow(10, size);
-		document.getElementById("answer").innerHTML = answer * answerSize;
-		$("#size").show()
-		//document.getElementById("answer").innerHTML = "works";
+	    	var answer = answer * Math.pow(10, size);
+	    	var answer = answer * answerSize;
+
+	    	try {
+		    	var StringAnswer = String(answer);
+		    	var res = StringAnswer.split("e");
+		    	var answer2 = res[0];
+		    	var answer3 = parseFloat(answer2);
+		    	var answer3 = Math.round(answer3 * 10000000000) / 10000000000;
+		    	var StringAnswer2 = String(answer3);
+		    	var answer = StringAnswer2 + "e" + res[1];
+		    	var answer = parseFloat(answer);
+		    	
+		    }
+		    catch(err) {
+		    	//round here to avoid integer inaccuracies
+		    }
+
+	    	document.getElementById("answer").innerHTML = answer;
+			$("#size").show()
+			//document.getElementById("answer").innerHTML = "works";
 
 		}
 		
