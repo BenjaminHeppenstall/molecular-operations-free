@@ -10,47 +10,7 @@
   "cordova-plugin-admobpro": {
     "source": {
       "type": "registry",
-      "id": "cordova-plugin-admobpro"
-    },
-    "is_top_level": true,
-    "variables": {}
-  },
-  "cordova-plugin-extension": {
-    "source": {
-      "type": "registry",
-      "id": "cordova-plugin-extension"
-    },
-    "is_top_level": false,
-    "variables": {}
-  },
-  "cordova-plugin-inappbrowser": {
-    "source": {
-      "type": "registry",
-      "id": "cordova-plugin-inappbrowser@^3.0.0"
-    },
-    "is_top_level": true,
-    "variables": {}
-  },
-  "cordova-android-support-gradle-release": {
-    "source": {
-      "type": "registry",
-      "id": "cordova-android-support-gradle-release@^3.0.1"
-    },
-    "is_top_level": true,
-    "variables": {}
-  },
-  "cordova-plugin-androidx": {
-    "source": {
-      "type": "registry",
-      "id": "cordova-plugin-androidx"
-    },
-    "is_top_level": true,
-    "variables": {}
-  },
-  "cordova-plugin-androidx-adapter": {
-    "source": {
-      "type": "registry",
-      "id": "cordova-plugin-androidx-adapter"
+      "id": "cordova-plugin-admobpro@^2.31.5"
     },
     "is_top_level": true,
     "variables": {}
