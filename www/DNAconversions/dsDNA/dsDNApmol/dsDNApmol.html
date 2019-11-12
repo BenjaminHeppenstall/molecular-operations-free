@@ -10,7 +10,7 @@
 	<div class="header">
 
 		<button class="backBtn" id="backButton" onclick="location.href='../../DNAconversions.html'"><img src="images/back.png"></button>
-		<h1 class="heading">dsDNA:<br>µg to pmol</h1>
+		<h1 class="heading">dsDNA:<br>µg to pmol and<br>DNA copy number</h1>
 
 	</div>
 
@@ -23,7 +23,7 @@
 		<label>DNA amount (µg)</label><br>
 		<input type="number" id="DNAamount" tabindex="2" /> <br><br>
 
-		<p id="answer" style="display: inline-block;"></p><br>
+		<div class="answer" id="answer" style="display: inline-block;"></div><br>
 
 		<button id="calcBtn" onclick="calculateDNAug()" tabindex="3">calculate</button> <br>
 

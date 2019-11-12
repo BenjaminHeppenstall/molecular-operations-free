@@ -29,8 +29,12 @@ function calculateDNAug() {
 
 	} else { 
 
-		var answer1 = amount * ((1 / 660) * 1000000);
-	    var answer = answer1 * (1 / length);
+	    var answer = amount / (617.96 * length + 36.04) * 1000000;
+	    var answer = Math.round(answer);
+
+	    var copyNumber = answer * (6.022 * Math.pow(10, 23));
+	    var copyNumber = copyNumber * Math.pow(10, -12)
+	    var copyNumber = copyNumber.toExponential();
 
 	    try {
 	    	var StringAnswer = String(answer);
@@ -47,8 +51,33 @@ function calculateDNAug() {
 	    catch(err) {
 
 	    }
+	    try {
+	    	//var copyNumber = 93558913;
+	    	//var copyNumber = copyNumber.toExponential();
+	    	var StringAnswer = String(copyNumber);
+	    	var end = StringAnswer.split("e");
+	    	var res = end[0].split(".");
+	    	var answer2 = "0." + res[1];
+	    	var answer3 = parseFloat(answer2);
+	    	var answer3 = answer3.toPrecision(3);
+	    	var StringAnswer2 = String(answer3);
+	    	while (StringAnswer2.substr(StringAnswer2.length - 1) < 1) {
+	    		var StringAnswer2 = StringAnswer2.slice(0, -1);
 
-		document.getElementById("answer").innerHTML = answer + " pmol";
+	    	}
+	    	var res1 = StringAnswer2.split(".");
+	    	var copyNumber = res[0] + "." + res1[1];
+	    	var copyNumber = copyNumber + "e" + end[1];
+	    	//var copyNumber = parseFloat(CopyNumber);
+	    	//document.getElementById("answer2").innerHTML = copyNumber;
+	    	
+	    }
+	    catch(err) {
+	    	//document.getElementById("answer2").innerHTML = "it dont work";
+
+	    }
+
+		document.getElementById("answer").innerHTML = answer + " pmol\n" +  copyNumber + " molecules";
 		//document.getElementById("answer").innerHTML = "works";
 			
 
