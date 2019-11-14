@@ -1,4 +1,4 @@
-//amount * ((1/660) * 1 000 000) * (1/length) = pmol
+//amount / (660 * 1 000 000) * length = pmol
 
 var input = document.getElementById("DNAlength");
 input.addEventListener("keyup", function(event) {

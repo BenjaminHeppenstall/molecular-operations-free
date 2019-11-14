@@ -1,4 +1,4 @@
-//amount * 660 * 1 000 000 * length
+//amount *(617.96 * length + 36.04) / 1000000;
 
 var input = document.getElementById("DNAlength");
 input.addEventListener("keyup", function(event) {
@@ -28,8 +28,8 @@ function calculateDNAug() {
 
 	} else { 
 
-		var answer1 = amount * 660;
-	    var answer = answer1 / 1000000 * length;
+		var answer = amount * (617.96 * length + 36.04) / 1000000;
+	    //var answer = answer1 / 1000000 * length;
 
 	    try {
 	    	var StringAnswer = String(answer);
